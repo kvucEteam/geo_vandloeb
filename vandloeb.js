@@ -16,9 +16,16 @@ function initMap() {
         $("#explanationWrapper").html(explanation(jsonData.userInterface.instruktion));
         $('.instr_container').html(instruction(jsonData.userInterface.explanation));
 
+        $(".overlay_container").fadeOut(0);
+        $(".btn-kort").click(vis_kort);
+
         build_markers();
     });
 
+}
+
+function vis_kort() {
+    $(".overlay_container").html("").fadeOut(200);
 }
 
 function build_markers() {
@@ -58,11 +65,27 @@ function build_markers() {
             $('.videolink').click(function() {
                 openVideo(indeks);
             });
+            $('.piclink').click(function() {
+                openPanorama(indeks);
+            });
         });
     }
 }
 
 function openVideo(num) {
-    var HTML = "<h2>Video</h2><div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[num].video + "''></iframe></div>";
-    UserMsgBox("body", HTML);
+    var HTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[num].video + "''></iframe></div>";
+    $(".overlay_container").fadeIn();
+
+    $(".overlay_container").html(HTML);
+}
+
+function openPanorama(num) {
+    var HTML = '<div class="paver_container col-xs-12">';
+    HTML += '<div data-paver><img src="' + jsonData.zoom_punkter[0].panorama_billede + '" title="Sunset in the heart of Aarhus" alt="A panorama" />';
+    HTML += '</div></div>';
+
+    $(".overlay_container").fadeIn();
+
+    $(".overlay_container").html(HTML);
+    $('.paver_container').paver();
 }
