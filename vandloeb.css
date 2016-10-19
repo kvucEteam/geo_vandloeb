@@ -3,10 +3,11 @@
     }
 
 
-.panorama_pic_container{
+.overlay_container{
+	position: absolute;
 
 }
 
 .svg{
-	height:28px;
+	height:27px;
 }
