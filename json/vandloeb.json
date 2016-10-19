@@ -1,0 +1,39 @@
+{
+    "userInterface": {
+        "header": "Bevægelser i teksten 1",
+        "instruktion": "I denne opgave skal bruge data fra de tre målingssteder i åen til at udfylde PDF opgaverne om vandløbets profil, vandføringen, vandbalancen og en karakteristik af vandløbet som landskabsdannende faktor. ",
+        "explanation": "Klik på målingsstationerne og data om åen til at lave PDF opgaverne.",
+        "titel": "Nytårsforsætter"
+    },
+    "zoom_punkter": [{
+        "lat": 55.267886,
+        "lng": 11.738638,
+        "header": "Et sted på åen",
+        "header_pic": "img/aa_2.png",
+        "video_header": "Måling 1",
+        "video": "uye4MJFs9Kc",
+        "video_tekst" :"",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst":"",
+        "sed_pic":"",
+        "sed_tekst":"",
+        "infotekst" : ""
+    }, {
+        "lat": 55.271744,
+        "lng": 11.708597,
+        "header": "Åens krumning",
+        "header_pic": "img/aa_2.png",
+        "video_header": "En youtube film",
+        "video": "18b9MI9NHZI",
+        "li": ["li1", "li2", "li3"]
+    }, {
+        "lat": 55.265347,
+        "lng": 11.724578,
+        "header": "Et 3. sted på åen",
+
+        "header_pic": "img/aa_1.jpg",
+        "video_header": "En youtube film",
+        "video": "xVHJxm4O8Jc",
+        "li": ["li1", "li2", "li3"]
+    }]
+}
