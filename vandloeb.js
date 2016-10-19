@@ -1,5 +1,7 @@
 var map;
 
+var icon_Array = ["img/cviwhglass.png", "img/lightbllup.png", "img/lightblpin.png", "img/lightwhlup.png", "img/lightwhpin.png", "img/cviwhpin.png","img/cviwhlup.png"];
+
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -40,6 +42,7 @@ function build_markers() {
         var myLatLng = { lat: latitude, lng: length };
         var marker = new google.maps.Marker({
             position: myLatLng,
+            icon: icon_Array[Math.floor(Math.random()*icon_Array.length)],
             map: map,
         });
         marker.num = i;
