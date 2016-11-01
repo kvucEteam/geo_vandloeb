@@ -47,7 +47,22 @@
             "sed_pic": "",
             "sed_tekst": "",
             "infotekst": ""
+        }, {
+            "lat": 55.476272,
+            "lng": 11.863689,
+            "header": "Målestation Værkevad bro",
+            "header_pic": "img/aa_2.png",
+            "marker": "img/cviwhlup.png",
+            "video_header": "Måling 1",
+            "video": "uye4MJFs9Kc",
+            "video_tekst": "",
+            "panorama_billede": "img/tomas.jpg",
+            "panorama_tekst": "",
+            "sed_pic": "",
+            "sed_tekst": "",
+            "infotekst": ""
         }
+
 
     ]
 }

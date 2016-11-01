@@ -14,34 +14,34 @@ function initMap() {
     });
 
 
-/*
-    var flightPlanCoordinates = [
-        { lat: 55.458392, lng: 12.163593 },
-        { lat: 55.458273, lng: 12.163640 },
-        { lat: 55.458187, lng: 12.163761 },
-        { lat: 55.458136, lng: 12.163968 },
-        { lat: 55.458096, lng: 12.164206 },
-        { lat: 55.458031, lng: 12.164195 },
-        { lat: 55.457941, lng: 12.164053 },
-        { lat: 55.457883, lng: 12.163894 },
-        { lat: 55.457747, lng: 12.163741 },
-        { lat: 55.457636, lng: 12.163667 },
-        { lat: 55.457554, lng: 12.163564 },
-        { lat: 55.457405, lng: 12.163572 },
-        { lat: 55.457314, lng: 12.163767 },
-        { lat: 55.457243, lng: 12.163972 }
-    ];
-    var flightPath = new google.maps.Polyline({
-        path: flightPlanCoordinates,
-        geodesic: true,
-        strokeColor: '#56bfc5',
-        strokeOpacity: 0.5,
-        strokeWeight: 10
-    });
+    /*
+        var flightPlanCoordinates = [
+            { lat: 55.458392, lng: 12.163593 },
+            { lat: 55.458273, lng: 12.163640 },
+            { lat: 55.458187, lng: 12.163761 },
+            { lat: 55.458136, lng: 12.163968 },
+            { lat: 55.458096, lng: 12.164206 },
+            { lat: 55.458031, lng: 12.164195 },
+            { lat: 55.457941, lng: 12.164053 },
+            { lat: 55.457883, lng: 12.163894 },
+            { lat: 55.457747, lng: 12.163741 },
+            { lat: 55.457636, lng: 12.163667 },
+            { lat: 55.457554, lng: 12.163564 },
+            { lat: 55.457405, lng: 12.163572 },
+            { lat: 55.457314, lng: 12.163767 },
+            { lat: 55.457243, lng: 12.163972 }
+        ];
+        var flightPath = new google.maps.Polyline({
+            path: flightPlanCoordinates,
+            geodesic: true,
+            strokeColor: '#56bfc5',
+            strokeOpacity: 0.5,
+            strokeWeight: 10
+        });
 
-    flightPath.setMap(map);
+        flightPath.setMap(map);
 
-    */
+        */
 
     $(document).ready(function() {
 
@@ -50,14 +50,24 @@ function initMap() {
 
         $(".overlay_container").fadeOut(0);
         $(".btn-kort").click(vis_kort);
+        $(".btn-data").click(vis_data);
 
         build_markers();
+
     });
 
 }
 
 function vis_kort() {
     $(".overlay_container").html("").fadeOut(200);
+    var laLatLng = new google.maps.LatLng( 55.482721,11.880579);
+    map.panTo(laLatLng);
+}
+
+
+function vis_data() {
+    var laLatLng = new google.maps.LatLng(55.476272, 11.863689);
+    map.panTo(laLatLng);
 }
 
 function build_markers() {
