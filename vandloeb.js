@@ -1,15 +1,12 @@
 var map;
 
-var icon_Array = ["img/cviwhglass.png", "img/lightbllup.png", "img/lightblpin.png", "img/lightwhlup.png", "img/lightwhpin.png", "img/cviwhpin.png", "img/cviwhlup.png"];
-
-
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: {
-            lat: 55.482721,
-            lng: 11.880579
+            lat: 55.480221,
+            lng: 11.870579
         },
-        zoom: 18,
+        zoom: 16,
         mapTypeId: 'satellite'
     });
 
@@ -51,6 +48,7 @@ function initMap() {
         $(".overlay_container").fadeOut(0);
         $(".btn-kort").click(vis_kort);
         $(".btn-data").click(vis_data);
+        $(".btn-overblik").click(vis_overblik);
 
         build_markers();
 
@@ -60,14 +58,22 @@ function initMap() {
 
 function vis_kort() {
     $(".overlay_container").html("").fadeOut(200);
-    var laLatLng = new google.maps.LatLng( 55.482721,11.880579);
+    var laLatLng = new google.maps.LatLng(55.482721, 11.880579);
     map.panTo(laLatLng);
+    map.setZoom(18);
 }
 
 
 function vis_data() {
     var laLatLng = new google.maps.LatLng(55.476272, 11.863689);
     map.panTo(laLatLng);
+    map.setZoom(18);
+}
+
+function vis_overblik() {
+    var laLatLng = new google.maps.LatLng(55.480221,11.870579);
+    map.panTo(laLatLng);
+    map.setZoom(16);
 }
 
 function build_markers() {
@@ -87,48 +93,43 @@ function build_markers() {
         });
         marker.num = i;
 
-        var infowindow = new google.maps.InfoWindow({});
+        //var infowindow = new google.maps.InfoWindow({});
 
-        var HTML = "<h2>" + js[i].header + "</h2>";
-        HTML += "<img class='img-responsive' src='" + js[i].header_pic + "'>";
-        HTML += "<div class='videolink btn btn-sm btn-info'><span class='glyphicon glyphicon-play-circle'></span> Se målingen</div>";
-        HTML += "<div class='piclink btn btn-sm btn-info'><span class='glyphicon glyphicon-picture'></span> Se dig omkring på stedet (360<sup>o</sup>)</div>";
-        HTML += "<div class='sedimentlink btn btn-sm btn-info'><span class='glyphicon glyphicon-picture'></span> Sedimenter</div>";
-        HTML += "<div class='statslink btn btn-sm btn-info'><span class='glyphicon glyphicon-info-sign'></span> Læs om området</div>";
+        HTML = "<h2>" + js[i].header + "</h2>";
+
+
+        //HTML += "<img class='img-responsive' src='" + js[i].header_pic + "'>";
+
+
+        if (js[i].type == "video") {
+            HTML += "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[i].video + "'></iframe></div>";
+            console.log("lets make video!");
+        } else if (js[i].type == "panorama") {
+
+            HTML += "<figure><div class='panorama' data-paver data-start-position='0'><img src=" + jsonData.zoom_punkter[i].panorama_billede + " /></div></figure>"
+                //HTML += '<div class="paver_container col-xs-12">';
+                //HTML += '<img src="' + jsonData.zoom_punkter[i].panorama_billede + '" title="Sunset in the heart of Aarhus" alt="A panorama" />';
+                //HTML += '</div>';
+            $('.panorama').paver();
+            console.log("lets make panorama!");
+
+
+        } else if (js[i].type == "info") {
+            HTML += '<div class="col-xs-12">Her kommer til at være en masse info, right?</div>';
+
+        }
 
         HTML_array.push(HTML);
 
+
+
+        //$("body").append(newHTML);
+
         google.maps.event.addListener(marker, 'click', function() {
             var indeks = this.num;
+            UserMsgBox("body", HTML_array[this.num]);
+            $('.panorama').paver();
 
-            infowindow.setContent(HTML_array[this.num]);
-            infowindow.open(map, this);
-            //infowindow.open(map,"marker");
-            //marker.openInfoWindow("html");
-            $('.videolink').click(function() {
-                openVideo(indeks);
-            });
-            $('.piclink').click(function() {
-                openPanorama(indeks);
-            });
         });
     }
-}
-
-function openVideo(num) {
-    var HTML = "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[num].video + "''></iframe></div>";
-    $(".overlay_container").fadeIn();
-
-    $(".overlay_container").html(HTML);
-}
-
-function openPanorama(num) {
-    var HTML = '<div class="paver_container col-xs-12">';
-    HTML += '<div data-paver><img src="' + jsonData.zoom_punkter[0].panorama_billede + '" title="Sunset in the heart of Aarhus" alt="A panorama" />';
-    HTML += '</div></div>';
-
-    $(".overlay_container").fadeIn();
-
-    $(".overlay_container").html(HTML);
-    $('.paver_container').paver();
 }

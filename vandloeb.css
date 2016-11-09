@@ -16,3 +16,40 @@
 .svg{
 	height:27px;
 }
+
+
+#data-paver {
+	height: 400px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	img {
+		height: 30%;
+	}
+}
+
+.paver_container{
+	color:green;
+}
+
+.panorama{
+		height: 400px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	img {
+		height: 100%;
+	}
+}
+#UserMsgBox {
+    border: 0 solid silver;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    line-height: 1.5em;
+    position: absolute;
+    max-height: 90%;
+    overflow: auto;
+    max-width:1170px;
