@@ -47,7 +47,6 @@ function initMap() {
 
         $(".overlay_container").fadeOut(0);
         $(".btn-kort").click(vis_kort);
-        $(".btn-data").click(vis_data);
         $(".btn-overblik").click(vis_overblik);
 
         build_markers();
@@ -63,15 +62,8 @@ function vis_kort() {
     map.setZoom(18);
 }
 
-
-function vis_data() {
-    var laLatLng = new google.maps.LatLng(55.476272, 11.863689);
-    map.panTo(laLatLng);
-    map.setZoom(18);
-}
-
 function vis_overblik() {
-    var laLatLng = new google.maps.LatLng(55.480221,11.870579);
+    var laLatLng = new google.maps.LatLng(55.480221, 11.870579);
     map.panTo(laLatLng);
     map.setZoom(16);
 }
@@ -104,19 +96,22 @@ function build_markers() {
         if (js[i].type == "video") {
             HTML += "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[i].video + "'></iframe></div>";
             console.log("lets make video!");
-        } else if (js[i].type == "panorama") {
 
+        } else if (js[i].type == "panorama") {
+            //HTML += '<div class="panorama"><img src="' + jsonData.zoom_punkter[i].panorama_billede + '"></div>'; 
             HTML += "<figure><div class='panorama' data-paver data-start-position='0'><img src=" + jsonData.zoom_punkter[i].panorama_billede + " /></div></figure>"
                 //HTML += '<div class="paver_container col-xs-12">';
                 //HTML += '<img src="' + jsonData.zoom_punkter[i].panorama_billede + '" title="Sunset in the heart of Aarhus" alt="A panorama" />';
                 //HTML += '</div>';
-            $('.panorama').paver();
+
             console.log("lets make panorama!");
 
 
         } else if (js[i].type == "info") {
             HTML += '<div class="col-xs-12">Her kommer til at være en masse info, right?</div>';
 
+        } else if (js[i].type == "data") {
+            HTML += '<div class="col-xs-12"><embed src="data/'+jsonData.zoom_punkter[i].content+'" width="100%" height="600" type="application/pdf"><a href="data/'+jsonData.zoom_punkter[i].content+'">Download pdf</a></div>';
         }
 
         HTML_array.push(HTML);
@@ -127,8 +122,17 @@ function build_markers() {
 
         google.maps.event.addListener(marker, 'click', function() {
             var indeks = this.num;
-            UserMsgBox("body", HTML_array[this.num]);
+
+            console.log("Hej");
+            UserMsgBox_xclick("body", HTML_array[this.num]);
             $('.panorama').paver();
+            /*$(".panorama").panorama_viewer({
+                repeat: false, // The image will repeat when the user scroll reach the bounding box. The default value is false.
+                direction: "horizontal", // Let you define the direction of the scroll. Acceptable values are "horizontal" and "vertical". The default value is horizontal
+                animationTime: 700, // This allows you to set the easing time when the image is being dragged. Set this to 0 to make it instant. The default value is 700.
+                easing: "ease-out", // You can define the easing options here. This option accepts CSS easing options. Available options are "ease", "linear", "ease-in", "ease-out", "ease-in-out", and "cubic-bezier(...))". The default value is "ease-out".
+                overlay: false // Toggle this to false to hide the initial instruction overlay
+            });*/
 
         });
     }

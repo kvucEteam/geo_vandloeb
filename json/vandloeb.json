@@ -7,7 +7,7 @@
     },
     "zoom_punkter": [{
             "type": "video",
-            "lat": 55.483199,
+            "lat": 55.483209,
             "lng": 11.880584,
             "header": "Måling fra første lokation: Åen svinger til venstre",
             "header_pic": "img/aa_2.png",
@@ -22,8 +22,8 @@
             "infotekst": ""
         }, {
             "type": "video",
-            "lat": 55.482512,
-            "lng": 11.879717,
+            "lat": 55.482592, 
+            "lng": 11.879640,
             "header": "Måling fra anden lokation: Åen svinger til højre",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_video.png",
@@ -37,8 +37,8 @@
             "infotekst": ""
         }, {
             "type": "video",
-            "lat": 55.482349,
-            "lng": 11.879460,
+            "lat": 55.482095, 
+            "lng": 11.879331,
             "header": "Måling fra tredje lokation: Åen løber ligeud",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_video.png",
@@ -68,7 +68,7 @@
         }, {
             "type": "panorama",
             "lat": 55.482702,
-            "lng": 11.879767,
+            "lng": 11.879667,
             "header": "Panorama fra anden lokation: Åen svinger til højre",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_panorama.png",
@@ -82,8 +82,8 @@
             "infotekst": ""
         }, {
             "type": "panorama",
-            "lat": 55.482149,
-            "lng": 11.879460,
+            "lat": 55.482184, 
+            "lng": 11.879381,
             "header": "Panorama fra tredje lokation: Åen løber ligeud",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_panorama.png",
@@ -134,6 +134,51 @@
             "marker": "img/icon_opgave.png",
             "video_header": "Måling 1",
             "video": "uye4MJFs9Kc",
+            "video_tekst": "",
+            "panorama_billede": "img/tomas.jpg",
+            "panorama_tekst": "",
+            "sed_pic": "",
+            "sed_tekst": "",
+            "infotekst": ""
+        },{
+            "type": "data",
+            "lat": 55.483320,
+            "lng":  11.880644,
+            "header": "Data fra 1. lokation",
+            "header_pic": "img/icon_data.png",
+            "marker": "img/icon_data.png",
+            "video_header": "Måling 1",
+            "content": "Data fra lokalitet 1.pdf",
+            "video_tekst": "",
+            "panorama_billede": "img/tomas.jpg",
+            "panorama_tekst": "",
+            "sed_pic": "",
+            "sed_tekst": "",
+            "infotekst": ""
+        },{
+            "type": "data",
+            "lat": 55.482823, 
+            "lng": 11.879675,
+            "header": "Data fra 2. lokation",
+            "header_pic": "img/icon_data.png",
+            "marker": "img/icon_data.png",
+            "video_header": "Måling 1",
+            "content": "Data fra lokalitet 2.pdf",
+            "video_tekst": "",
+            "panorama_billede": "img/tomas.jpg",
+            "panorama_tekst": "",
+            "sed_pic": "",
+            "sed_tekst": "",
+            "infotekst": ""
+        },{
+            "type": "data",
+            "lat": 55.482132, 
+            "lng": 11.879167,
+            "header": "Data fra 3. lokation",
+            "header_pic": "img/icon_data.png",
+            "marker": "img/icon_data.png",
+            "video_header": "Måling 1",
+            "content": "Data fra lokalitet 3.pdf",
             "video_tekst": "",
             "panorama_billede": "img/tomas.jpg",
             "panorama_tekst": "",
