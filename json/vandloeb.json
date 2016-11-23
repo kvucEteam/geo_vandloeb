@@ -1,11 +1,27 @@
 {
     "userInterface": {
         "header": "Bevægelser i teksten 1",
-        "instruktion": "I denne opgave skal bruge data fra de tre målingssteder i åen til at udfylde PDF opgaverne om vandløbets profil, vandføringen, vandbalancen og en karakteristik af vandløbet som landskabsdannende faktor. ",
-        "explanation": "Klik på målingsstationerne og se forsøgets opbygning og den indsamlede data. På knappen vandløbsdata kan du få data fra perioden 20xx - 20xx.",
+        "explanation": "Klik på kortet og se film, billeder og data fra dataindsamlingerne.",
+        "instruktion": "I denne opgave skal du bruge data fra de tre målingssteder i åen til at udfylde PDF-opgaverne om vandløbets profil, vandføring, vandbalance og vandløbet som landskabsdannende faktor.<a href='vandloeb_resurser.html' class='btn btn-info' target='_blank'>Se alle materialer</a>",
         "titel": "Nytårsforsætter"
     },
     "zoom_punkter": [{
+            "type": "info",
+            "lat": 55.481549,
+            "lng": 11.869160,
+            "header": "Info om området",
+            "header_pic": "img/icon_info.png",
+            "marker": "img/icon_info.png",
+            "video_header": "Måling 1",
+            "video": "uye4MJFs9Kc",
+            "video_tekst": "",
+            "panorama_billede": "img/tomas.jpg",
+            "panorama_tekst": "",
+            "sed_pic": "",
+            "sed_tekst": "",
+            "infotekst": "<div class='col-xs-8'><h4>Geografisk placering:</h4>Vigersdal å er beliggende et par km nordøst for Ringsted på Midtsjælland. <br>Åen er en del af Suså-systemet, der består at et hovedløb og 6 sideløb. Susåen er Sjællands største vandløb med udspring i Tingstrup Tykkelse i 90 m’s højde. Susåen løber til sidst sammen med Ringsted å.<br>Hvis vi kun ser på Vigersdal å, udspringer den i 25 m’s højde (overgangen fra Bedsted bæk) og løber over i Haraldsted sø i 22,81 m’s højde ved broindløbet ved Værkevad.<br>Åens opland er 28,9 km2.<br>Længden på åen er 5740 m.<br><h4>Landskab og jordbund:</h4>Åen ligger i et gammelt istidslandskab, hvor åen løber i en tunneldal, dvs. et gammelt flodløb under isen. Åen er omgivet af jævnt skrånende dalsider med ekstensivt anvendte arealer og få huse.<br>Jordbunden i området udgøres i overvejende grad af smeltevandssand ogsmeltevandsgrus. Herudover er der også moræneleraflejringer iblandet ferskvandstørv og gytje (omsat organisk materiale).<br><h4>Indvinding og regulativer:</h4>Der er kraftig vandindvinding i dette område, det er med til at forsyne Københavnsområdet med drikkevand.<br>Der er regulativer for åen, dette er for at sikre vandføringen i åen. Regulativet består i at måle vandføringen løbende, skære vegetationen i åen ned(grødeskæring) og fastsætte den maksimale indvinding af vand. Den maksimale indvinding reguleres løbende.</div><div class='col-xs-4'><img class='img-responsive 'src='img/kort_vigersted.png'></div>"
+        },{
+
             "type": "video",
             "lat": 55.483209,
             "lng": 11.880584,
@@ -22,7 +38,7 @@
             "infotekst": ""
         }, {
             "type": "video",
-            "lat": 55.482592, 
+            "lat": 55.482592,
             "lng": 11.879640,
             "header": "Måling fra anden lokation: Åen svinger til højre",
             "header_pic": "img/aa_2.png",
@@ -37,13 +53,43 @@
             "infotekst": ""
         }, {
             "type": "video",
-            "lat": 55.482095, 
+            "lat": 55.482095,
             "lng": 11.879331,
             "header": "Måling fra tredje lokation: Åen løber ligeud",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_video.png",
             "video_header": "Måling 1",
             "video": "zofBinqC2F4",
+            "video_tekst": "",
+            "panorama_billede": "",
+            "panorama_tekst": "",
+            "sed_pic": "",
+            "sed_tekst": "",
+            "infotekst": ""
+        }, {
+            "type": "video",
+            "lat": 55.481986, 
+            "lng": 11.879258,
+            "header": "Observation af vandets bevægelse vha. fløde",
+            "header_pic": "img/aa_2.png",
+            "marker": "img/icon_video.png",
+            "video_header": "Måling 1",
+            "video": "W6IOE3Y_LJQ",
+            "video_tekst": "",
+            "panorama_billede": "",
+            "panorama_tekst": "",
+            "sed_pic": "",
+            "sed_tekst": "",
+            "infotekst": ""
+        }, {
+            "type": "video",
+            "lat": 55.481851, 
+            "lng": 11.879181,
+            "header": "Hastighedsmåling vha. æble",
+            "header_pic": "img/aa_2.png",
+            "marker": "img/icon_video.png",
+            "video_header": "Måling 1",
+            "video": "BYIPj0BbPjQ",
             "video_tekst": "",
             "panorama_billede": "",
             "panorama_tekst": "",
@@ -82,7 +128,7 @@
             "infotekst": ""
         }, {
             "type": "panorama",
-            "lat": 55.482184, 
+            "lat": 55.482184,
             "lng": 11.879381,
             "header": "Panorama fra tredje lokation: Åen løber ligeud",
             "header_pic": "img/aa_2.png",
@@ -96,14 +142,50 @@
             "sed_tekst": "",
             "infotekst": ""
         }, {
+            "type": "sediment",
+            "lat": 55.482184,
+            "lng": 11.869381,
+            "data": {
+                "carouselData": {
+                    "subHeader": "Øvrige objekter for faget Dansk...",
+                    "slides": [{
+                        "type": "img",
+                        "src": "img/sediment/sediment1a_hand.png",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Et sediment med en given kornstørrelse</h3><p class='hidden-xs'>Her kan man tydeligt se på dimentet, at det er af den type sediment som kendetegnes ved at være sammenlignelig med andre typer af lignende sedimenter.</p>"
+                    }, {
+                        "type": "img",
+                        "src": "img/sediment/sediment1a_hand.png",
+                        "alt": "Eksternt billede..."
+                    }]
+                }
+            },
+
+
+            "header": "Sediment billeder fra 1 lokation",
+            "header_pic": "img/aa_2.png",
+            "marker": "img/icon_sediment.png",
+            "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
+            "infotekst": ""
+        }, {
             "type": "station",
             "lat": 55.476272,
             "lng": 11.863689,
             "header": "Målestation Værkevad bro",
-            "header_pic": "img/aa_2.png",
             "marker": "img/icon_data.png",
-            "video_header": "Måling 1",
-            "video": "uye4MJFs9Kc",
+            "infotekst": "<div class='col-xs-8'>Kommunen foretager løbende målinger af vandføring og vandstand for at sikre, at der er vand i vandløbet hele året, så økosystemet i vandløbet ikke ødelægges. <br/>Vandstanden måles også for at forebygge oversvømmelser af områder. Dette er i dag blevet mere aktuelt pga. flere skybrud og generelt mere nedbør. <br/>Høj vandstand kan mindskes ved grødeskæring (fjerne vandplanter) og evt. ved at øge vandindvindingen i området, hvis det er muligt.</div><div class='col-xs-6'><h4>Graf over vandføringen i Vigersdal Å</h4><img src='data/vendforing.png' class='img-responsive'><a class='btn btn-info' href='data/Vandforingsdata.pdf' target='_blank'><span class='glyphicons glyphicons-download-alt'></span> Hent vandføringsdata som pdf</a></div><div class='col-xs-6'><h4>Fordampning og nedbør</h4><img src='data/damp_nedbor.png' class='img-responsive'><a class='btn btn-info' href='data/Nedbor-fordampningsdata.pdf' target='_blank'><span class='glyphicons glyphicons-download-alt'></span> Hent nedbør og fordampningsdata som pdf</a></div>",
+            "pdf": ["", "", ""],
+            "sed_tekst": ""
+
+        },  {
+            "type": "pdf",
+            "lat": 55.479549,
+            "lng": 11.869960,
+            "header": "PDF opgaver",
+            "header_pic": "img/icon_data.png",
+            "marker": "img/icon_opgave.png",
+            "data": ["samlet_opgave_vandlobsundersogelse.pdf", "vandbalanceogvandindvindingsmuligheder_opgave.pdf", "profil_opgave.pdf"],
+            "pdf_headers": ["Samlet opgave vandløbsundersøgelse", "Opgave i vandbalance og vandindvindingsmuligheder", "Opgave i at lave vandløbets profil"],
             "video_tekst": "",
             "panorama_billede": "img/tomas.jpg",
             "panorama_tekst": "",
@@ -111,74 +193,44 @@
             "sed_tekst": "",
             "infotekst": ""
         }, {
-            "type": "info",
-            "lat": 55.481549,
-            "lng": 11.869160,
-            "header": "Info om området",
-            "header_pic": "img/icon_info.png",
-            "marker": "img/icon_info.png",
-            "video_header": "Måling 1",
-            "video": "uye4MJFs9Kc",
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        },{
-            "type": "pdf",
-            "lat": 55.479549,
-            "lng": 11.869960,
-            "header": "PDF opgaver",
-            "header_pic": "img/icon_data.png",
-            "marker": "img/icon_opgave.png",
-            "video_header": "Måling 1",
-            "video": "uye4MJFs9Kc",
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        },{
             "type": "data",
             "lat": 55.483320,
-            "lng":  11.880644,
+            "lng": 11.880644,
             "header": "Data fra 1. lokation",
             "header_pic": "img/icon_data.png",
             "marker": "img/icon_data.png",
             "video_header": "Måling 1",
-            "content": "Data fra lokalitet 1.pdf",
+            "content": "data_lokalitet_1.pdf",
             "video_tekst": "",
             "panorama_billede": "img/tomas.jpg",
             "panorama_tekst": "",
             "sed_pic": "",
             "sed_tekst": "",
             "infotekst": ""
-        },{
+        }, {
             "type": "data",
-            "lat": 55.482823, 
+            "lat": 55.482823,
             "lng": 11.879675,
             "header": "Data fra 2. lokation",
             "header_pic": "img/icon_data.png",
             "marker": "img/icon_data.png",
             "video_header": "Måling 1",
-            "content": "Data fra lokalitet 2.pdf",
+            "content": "data_lokalitet_2.pdf",
             "video_tekst": "",
             "panorama_billede": "img/tomas.jpg",
             "panorama_tekst": "",
             "sed_pic": "",
             "sed_tekst": "",
             "infotekst": ""
-        },{
+        }, {
             "type": "data",
-            "lat": 55.482132, 
+            "lat": 55.482132,
             "lng": 11.879167,
             "header": "Data fra 3. lokation",
             "header_pic": "img/icon_data.png",
             "marker": "img/icon_data.png",
             "video_header": "Måling 1",
-            "content": "Data fra lokalitet 3.pdf",
+            "content": "data_lokalitet_3.pdf",
             "video_tekst": "",
             "panorama_billede": "img/tomas.jpg",
             "panorama_tekst": "",

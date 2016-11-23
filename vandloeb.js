@@ -1,4 +1,6 @@
 var map;
+var x_pos;
+var y_pos;
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -44,10 +46,18 @@ function initMap() {
 
         $("#explanationWrapper").html(explanation(jsonData.userInterface.instruktion));
         $('.instr_container').html(instruction(jsonData.userInterface.explanation));
+        $(".marker_popud").hide();
 
         $(".overlay_container").fadeOut(0);
         $(".btn-kort").click(vis_kort);
         $(".btn-overblik").click(vis_overblik);
+
+        $("body").mousemove(function(event) {
+            x_pos = event.pageX; // Get the horizontal coordinate
+            y_pos = event.pageY; // Get the vertical coordinate
+            $(".marker_popud").css("top", y_pos - 60).css("left", x_pos - $(".marker_popud").width() / 2);
+            //console.log("x: " + x_pos + "y_pos: " + y_pos);
+        })
 
         build_markers();
 
@@ -94,7 +104,7 @@ function build_markers() {
 
 
         if (js[i].type == "video") {
-            HTML += "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[i].video + "'></iframe></div>";
+            HTML += "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[i].video + "?rel=0'></iframe></div>";
             console.log("lets make video!");
 
         } else if (js[i].type == "panorama") {
@@ -108,11 +118,27 @@ function build_markers() {
 
 
         } else if (js[i].type == "info") {
-            HTML += '<div class="col-xs-12">Her kommer til at være en masse info, right?</div>';
+            HTML += '<div>' + jsonData.zoom_punkter[i].infotekst + '</div>';
 
         } else if (js[i].type == "data") {
-            HTML += '<div class="col-xs-12"><embed src="data/'+jsonData.zoom_punkter[i].content+'" width="100%" height="600" type="application/pdf"><a href="data/'+jsonData.zoom_punkter[i].content+'">Download pdf</a></div>';
+            HTML += '<embed src="data/' + jsonData.zoom_punkter[i].content + '" width="100%" height="600" type="application/pdf"><a class="btn btn-info" href="data/' + jsonData.zoom_punkter[i].content + '"><span class="glyphicons glyphicons-download-alt"></span> Download data</a><br/>';
+        } else if (js[i].type == "station") {
+
+            HTML += '<div>' + jsonData.zoom_punkter[i].infotekst + '</div>';
+        } else if (js[i].type == "sediment") {
+
+            HTML += '<div>' + jsonData.zoom_punkter[i].infotekst + '</div>';
+        } else if (js[i].type == "pdf") {
+            HTML += '<p>Download eller åbn pdf opgaverne der hører til vandløbsundersøgelsen</p>';
+            for (var u = 0; u < jsonData.zoom_punkter[i].data.length; u++) {
+                //console.log(jsonData.zoom_punkter[u].data[i]);
+                HTML += '<a target="_blank" href="data/' + jsonData.zoom_punkter[i].data[u] + '"class="btn btn-info"><span class="glyphicons glyphicons-download-alt"></span> ' + jsonData.zoom_punkter[i].pdf_headers[u] + '</a><br/>';
+                //<span class='glyphicons glyphicons-download-alt'></span>
+            }
+
+
         }
+
 
         HTML_array.push(HTML);
 
@@ -126,6 +152,15 @@ function build_markers() {
             console.log("Hej");
             UserMsgBox_xclick("body", HTML_array[this.num]);
             $('.panorama').paver();
+            //jsakhdjak
+
+            if (js[indeks].type == "sediment") {
+                $("#UserMsgBox").append("<div class='karrusel'></div>");
+                var cObj = Object.create(carouselClass);
+                cObj.bsColum = "col-12"; // OPTIONS: "col-XX-center", "col-XX". NOTE: XX has to an even number if "center" has to work properly.
+                $('.karrusel').html(cObj.init(jsonData.zoom_punkter[indeks].data));
+                //HTML += '<div>'+jsonData.zoom_punkter[i].infotekst+'</div>';
+            }
             /*$(".panorama").panorama_viewer({
                 repeat: false, // The image will repeat when the user scroll reach the bounding box. The default value is false.
                 direction: "horizontal", // Let you define the direction of the scroll. Acceptable values are "horizontal" and "vertical". The default value is horizontal
@@ -134,6 +169,25 @@ function build_markers() {
                 overlay: false // Toggle this to false to hide the initial instruction overlay
             });*/
 
+        });
+
+        google.maps.event.addListener(marker, 'mouseover', function(event) {
+            var indeks = this.num;
+
+            //this.setOpacity(0.5);
+
+            $(".marker_popud").show().html(jsonData.zoom_punkter[indeks].header);
+
+            //$(".content_container").append("<div class='btn btn-info marker_popud'>"++"</div>")
+
+
+        });
+
+        google.maps.event.addListener(marker, 'mouseout', function() {
+            var indeks = this.num;
+            console.log("out");
+            this.setOpacity(1);
+            $(".marker_popud").hide();
         });
     }
 }

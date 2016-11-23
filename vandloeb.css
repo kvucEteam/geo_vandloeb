@@ -1,44 +1,56 @@
-    #map {
-        height: 700px;
-    }
-
-
-.overlay_container{
-	position: absolute;
-
-	background-color: rgba(0,0,0,.7);
-	top:0px;
-	width:100%;
-	height: 100%;
-
+#map {
+    height: 700px;
 }
 
-.svg{
-	height:27px;
+.btn_container {
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    left: 124px;
 }
 
+.btn-kort {
+    margin-left: -17px;
+}
+
+.overlay_container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+	margin-bottom: 0px;
+}
+
+.svg {
+    height: 27px;
+}
 
 #data-paver {
-	height: 400px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	img {
-		height: 30%;
-	}
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    img {
+        height: 30%;
+    }
 }
 
-.paver_container{
-	color:green;
+.paver_container {
+    color: green;
 }
 
-.panorama{
-		height: 400px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	img {
-		height: 100%;
-	}
+.panorama {
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    img {
+        height: 100%;
+    }
 }
+
 #UserMsgBox {
     border: 0 solid silver;
     background-color: #fff;
@@ -52,4 +64,12 @@
     position: absolute;
     max-height: 90%;
     overflow: auto;
-    max-width:1170px;
+    max-width: 1170px;
+}
+.info-col{
+	width:60%;
+}
+
+.marker_popud{
+	position: absolute;
+}
