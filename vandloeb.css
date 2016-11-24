@@ -21,8 +21,8 @@
     height: 100%;
 }
 
-h4{
-	margin-bottom: 0px;
+h4 {
+    margin-bottom: 0px;
 }
 
 .svg {
@@ -66,10 +66,18 @@ h4{
     overflow: auto;
     max-width: 1170px;
 }
-.info-col{
-	width:60%;
+
+.info-col {
+    width: 60%;
 }
 
-.marker_popud{
-	position: absolute;
+.marker_popud {
+    position: absolute;
+}
+
+.btn_materialer {
+  
+    position: absolute;
+    right: -5px;
+    bottom: 10px;
 }

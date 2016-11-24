@@ -57,7 +57,9 @@ function initMap() {
             y_pos = event.pageY; // Get the vertical coordinate
             $(".marker_popud").css("top", y_pos - 60).css("left", x_pos - $(".marker_popud").width() / 2);
             //console.log("x: " + x_pos + "y_pos: " + y_pos);
-        })
+        });
+
+        $(".col-xs-12").eq(0).append("<a href='vandloeb_resurser.html' class='hidden-sm btn btn-info btn_materialer' target='_blank'>Se alle materialer</a>");
 
         build_markers();
 
