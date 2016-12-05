@@ -10,7 +10,7 @@
             "lat": 55.481549,
             "lng": 11.869160,
             "header": "Info om området",
-            "resurse_prepend": "Video: ",
+            "resurse_prepend": "",
             "header_pic": "img/icon_info.png",
             "marker": "img/icon_info.png",
             "video_header": "Måling 1",
@@ -63,7 +63,7 @@
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_video.png",
             "video_header": "Måling 1",
-            "video": "zofBinqC2F4",
+            "video": "8A-j6pq6UMg",
             "video_tekst": "",
             "panorama_billede": "",
             "panorama_tekst": "",
@@ -79,7 +79,7 @@
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_video.png",
             "video_header": "Måling 1",
-            "video": "W6IOE3Y_LJQ",
+            "video": "AZOfSNREPAE",
             "video_tekst": "",
             "panorama_billede": "",
             "panorama_tekst": "",
@@ -95,14 +95,14 @@
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_video.png",
             "video_header": "Måling 1",
-            "video": "BYIPj0BbPjQ",
+            "video": "bmSMelrVf0I",
             "video_tekst": "",
             "panorama_billede": "",
             "panorama_tekst": "",
             "sed_pic": "",
             "sed_tekst": "",
             "infotekst": ""
-        },  {
+        }, {
             "type": "data",
             "lat": 55.483320,
             "lng": 11.880644,
@@ -166,7 +166,7 @@
             "sed_pic": "",
             "sed_tekst": "",
             "infotekst": ""
-        },{
+        }, {
             "type": "station",
             "lat": 55.476272,
             "lng": 11.863689,
@@ -227,8 +227,14 @@
             "infotekst": ""
         }, {
             "type": "sediment",
-            "lat": 55.482184,
-            "lng": 11.869381,
+            "lat": 55.483268,  
+            "lng": 11.880506,
+            "header": "Sediment billeder fra 1. lokation",
+            "resurse_prepend": "",
+            "header_pic": "img/aa_2.png",
+            "marker": "img/icon_sediment.png",
+            "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
+            "infotekst": "",
             "data": {
                 "carouselData": {
                     "subHeader": "Øvrige objekter for faget Dansk...",
@@ -243,16 +249,60 @@
                         "alt": "Eksternt billede..."
                     }]
                 }
-            },
-
-
-            "header": "Sediment billeder fra 1 lokation",
+            }
+        }, {
+            "type": "sediment",
+            "lat": 55.482832, 
+            "lng": 11.879340,
+            "header": "Sediment billeder fra 2. lokation",
             "resurse_prepend": "",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_sediment.png",
             "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
-            "infotekst": ""
+            "infotekst": "",
+            "data": {
+                "carouselData": {
+                    "subHeader": "Øvrige objekter for faget Dansk...",
+                    "slides": [{
+                        "type": "img",
+                        "src": "img/sediment/sediment1a_hand.png",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Et sediment med en given kornstørrelse</h3><p class='hidden-xs'>Her kan man tydeligt se på dimentet, at det er af den type sediment som kendetegnes ved at være sammenlignelig med andre typer af lignende sedimenter.</p>"
+                    }, {
+                        "type": "img",
+                        "src": "img/sediment/sediment1a_hand.png",
+                        "alt": "Eksternt billede..."
+                    }]
+                }
+            }
         }
+, {
+            "type": "sediment",
+            "lat": 55.482300, 
+            "lng": 11.878886,
+            "header": "Sediment billeder fra 3. lokation",
+            "resurse_prepend": "",
+            "header_pic": "img/aa_2.png",
+            "marker": "img/icon_sediment.png",
+            "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
+            "infotekst": "",
+            "data": {
+                "carouselData": {
+                    "subHeader": "Øvrige objekter for faget Dansk...",
+                    "slides": [{
+                        "type": "img",
+                        "src": "img/sediment/sediment1a_hand.png",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Et sediment med en given kornstørrelse</h3><p class='hidden-xs'>Her kan man tydeligt se på dimentet, at det er af den type sediment som kendetegnes ved at være sammenlignelig med andre typer af lignende sedimenter.</p>"
+                    }, {
+                        "type": "img",
+                        "src": "img/sediment/sediment1a_hand.png",
+                        "alt": "Eksternt billede..."
+                    }]
+                }
+            }
+        }
+
 
 
     ]

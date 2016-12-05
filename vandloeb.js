@@ -59,7 +59,7 @@ function initMap() {
             //console.log("x: " + x_pos + "y_pos: " + y_pos);
         });
 
-        $(".col-xs-12").eq(0).append("<a href='vandloeb_resurser.html' class='hidden-sm btn btn-info btn_materialer' target='_blank'>Se alle materialer</a>");
+        //$(".col-xs-12").eq(0).append("<a href='vandloeb_resurser.html' class='hidden-sm btn btn-info btn_materialer' target='_blank'>Se alle materialer</a>");
 
         build_markers();
 
@@ -94,6 +94,7 @@ function build_markers() {
             position: myLatLng,
             icon: jsonData.zoom_punkter[i].marker,
             map: map,
+            draggable:true
         });
         marker.num = i;
 
@@ -110,11 +111,15 @@ function build_markers() {
             console.log("lets make video!");
 
         } else if (js[i].type == "panorama") {
+            console.log("mobile browser: " + jQuery.browser.mobile);
+
             //HTML += '<div class="panorama"><img src="' + jsonData.zoom_punkter[i].panorama_billede + '"></div>'; 
-            HTML += "<figure><div class='panorama' data-paver data-start-position='0'><img src=" + jsonData.zoom_punkter[i].panorama_billede + " /></div></figure>"
+            HTML += "<figure><div class='panorama' data-paver data-start-position='0'><img class='img_paver' src=" + jsonData.zoom_punkter[i].panorama_billede + " /></div></figure>"
                 //HTML += '<div class="paver_container col-xs-12">';
                 //HTML += '<img src="' + jsonData.zoom_punkter[i].panorama_billede + '" title="Sunset in the heart of Aarhus" alt="A panorama" />';
                 //HTML += '</div>';
+
+
 
             console.log("lets make panorama!");
 
@@ -151,8 +156,9 @@ function build_markers() {
         google.maps.event.addListener(marker, 'click', function() {
             var indeks = this.num;
 
-            console.log("Hej");
+            console.log("Hej thomas");
             UserMsgBox_xclick("body", HTML_array[this.num]);
+            $(".img_paver").css("height", 80 + "%");
             $('.panorama').paver();
             //jsakhdjak
 
@@ -163,6 +169,8 @@ function build_markers() {
                 $('.karrusel').html(cObj.init(jsonData.zoom_punkter[indeks].data));
                 //HTML += '<div>'+jsonData.zoom_punkter[i].infotekst+'</div>';
             }
+
+       
             /*$(".panorama").panorama_viewer({
                 repeat: false, // The image will repeat when the user scroll reach the bounding box. The default value is false.
                 direction: "horizontal", // Let you define the direction of the scroll. Acceptable values are "horizontal" and "vertical". The default value is horizontal
@@ -172,6 +180,12 @@ function build_markers() {
             });*/
 
         });
+
+        google.maps.event.addListener(marker,'dragend',function(event) {
+        console.log(this.position.lat()+","+this.position.lng());
+        
+        
+    });
 
         google.maps.event.addListener(marker, 'mouseover', function(event) {
             var indeks = this.num;
