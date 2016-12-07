@@ -69,7 +69,7 @@ function initMap() {
 
 function vis_kort() {
     $(".overlay_container").html("").fadeOut(200);
-    var laLatLng = new google.maps.LatLng(55.482721, 11.880579);
+    var laLatLng = new google.maps.LatLng(55.482579129944946, 11.879951136245722);
     map.panTo(laLatLng);
     map.setZoom(18);
 }
@@ -93,8 +93,8 @@ function build_markers() {
         var marker = new google.maps.Marker({
             position: myLatLng,
             icon: jsonData.zoom_punkter[i].marker,
-            map: map,
-            draggable:true
+            map: map//,
+            //draggable:true
         });
         marker.num = i;
 
