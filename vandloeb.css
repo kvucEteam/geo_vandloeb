@@ -55,7 +55,6 @@ h4 {
     border: 0 solid silver;
     background-color: #fff;
     border-radius: 3px;
-    padding: 30px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -76,17 +75,22 @@ h4 {
 }
 
 .btn_materialer {
-  
     margin-left: 15px;
     margin-bottom: 10px;
 }
 
-
 @media all and (max-width: 870px) {
     .btn-overblik,
-    .btn-kort{
+    .btn-kort {
         font-size: 1.6vw;
-        padding:1vw;
+        padding: 1vw;
+    }
+    .carouselOverlay h3 {
+        font-size: 2.8vw;
+    }
+    .hidden-xs {
+        font-size: 1.2vw;
+        line-height: 1.6;
     }
 }
 
@@ -95,4 +99,7 @@ h4 {
     .btn-kort {
         font-size: 14px;
     }
+}
+.carouselOverlay{
+    background-color: rgba(0,0,0,.4);
 }

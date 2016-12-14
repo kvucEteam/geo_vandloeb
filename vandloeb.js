@@ -168,6 +168,7 @@ function build_markers() {
                 cObj.bsColum = "col-12"; // OPTIONS: "col-XX-center", "col-XX". NOTE: XX has to an even number if "center" has to work properly.
                 $('.karrusel').html(cObj.init(jsonData.zoom_punkter[indeks].data));
                 //HTML += '<div>'+jsonData.zoom_punkter[i].infotekst+'</div>';
+                $("#UserMsgBox").append('<div class="col-xs-12 sedimentforklaring"><span class="glyphicon glyphicon-info-sign"></span> Ler: <0,002mm | Silt: 0,002-0,06mm | Sand: 0,06-2mm | Grus: 2-20mm | Sten: 20-200mm | Blokke: >200mm</div>');
             }
 
        

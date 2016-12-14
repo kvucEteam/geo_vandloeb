@@ -26,7 +26,7 @@
             "type": "video",
             "lat": 55.48337618508668,
             "lng": 11.88104533995056,
-            "header": "Måling fra første lokation: Åen svinger til venstre",
+            "header": "Måling fra første lokation: Åen svinger til højre",
             "resurse_prepend": "Video: ",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_video.png",
@@ -42,7 +42,7 @@
             "type": "video",
             "lat": 55.48291117591131,
             "lng": 11.879897492065425,
-            "header": "Måling fra anden lokation: Åen svinger til højre",
+            "header": "Måling fra anden lokation: Åen svinger til venstre",
             "resurse_prepend": "Video: ",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_video.png",
@@ -106,7 +106,7 @@
             "type": "data",
             "lat": 55.483268324611615,
             "lng": 11.880590355819777,
-            "header": "Data fra 1. lokation",
+            "header": "Data: Åen svinger til højre",
             "resurse_prepend": "",
             "header_pic": "img/icon_data.png",
             "marker": "img/icon_data.png",
@@ -122,7 +122,7 @@
             "type": "data",
             "lat": 55.48264061367344,
             "lng": 11.879556982803365,
-            "header": "Data fra 2. lokation",
+            "header": "Data: Åen svinger til venstre",
             "resurse_prepend": "",
             "header_pic": "img/icon_data.png",
             "marker": "img/icon_data.png",
@@ -138,7 +138,7 @@
             "type": "data",
             "lat": 55.481919212138784,
             "lng": 11.87920991534429,
-            "header": "Data fra 3. lokation",
+            "header": "Data: Åen løber ligeud",
             "resurse_prepend": "",
             "header_pic": "img/icon_data.png",
             "marker": "img/icon_data.png",
@@ -181,14 +181,14 @@
             "type": "panorama",
             "lat": 55.48332459592208,
             "lng": 11.880816186508127,
-            "header": "Panorama fra første lokation: Åen svinger til venstre",
+            "header": "Panorama fra hvor åen svinger til højre",
             "resurse_prepend": "",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_panorama.png",
             "video_header": "Måling 1",
             "video": "uye4MJFs9Kc",
             "video_tekst": "",
-            "panorama_billede": "img/location_1.jpg",
+            "panorama_billede": "img/panorama/loc_1.png",
             "panorama_tekst": "",
             "sed_pic": "",
             "sed_tekst": "",
@@ -197,14 +197,14 @@
             "type": "panorama",
             "lat": 55.482793193126774,
             "lng": 11.879704550926249,
-            "header": "Panorama fra anden lokation: Åen svinger til højre",
+            "header": "Panorama fra hvor åen svinger til venstre",
             "resurse_prepend": "",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_panorama.png",
             "video_header": "Måling 1",
             "video": "uye4MJFs9Kc",
             "video_tekst": "",
-            "panorama_billede": "img/location_2.jpg",
+            "panorama_billede": "img/panorama/loc_2.png",
             "panorama_tekst": "",
             "sed_pic": "",
             "sed_tekst": "",
@@ -213,74 +213,93 @@
             "type": "panorama",
             "lat": 55.48206544706124,
             "lng": 11.87930589814755,
-            "header": "Panorama fra tredje lokation: Åen løber ligeud",
+            "header": "Panorama fra hvor åen løber ligeud",
             "resurse_prepend": "",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_panorama.png",
             "video_header": "Måling 1",
             "video": "uye4MJFs9Kc",
             "video_tekst": "",
-            "panorama_billede": "img/location_3.jpg",
+            "panorama_billede": "img/panorama/loc_3.png",
             "panorama_tekst": "",
             "sed_pic": "",
             "sed_tekst": "",
             "infotekst": ""
         }, {
             "type": "sediment",
-            "lat": 55.48317680797211,  
+            "lat": 55.48317680797211,
             "lng": 11.880382618385283,
-            "header": "Sediment billeder fra 1. lokation",
+            "header": "Bundforhold hvor åen svinger til højre",
             "resurse_prepend": "",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_sediment.png",
             "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
             "infotekst": "",
-            "data": {
+                "data": {
                 "carouselData": {
-                    "subHeader": "Øvrige objekter for faget Dansk...",
                     "slides": [{
                         "type": "img",
-                        "src": "img/sediment/sediment1a_hand.png",
+                        "src": "img/sediment/sediment_1a.jpg",
                         "alt": "Eksternt billede...",
-                        "overlay": "<h3>Et sediment med en given kornstørrelse</h3><p class='hidden-xs'>Her kan man tydeligt se på dimentet, at det er af den type sediment som kendetegnes ved at være sammenlignelig med andre typer af lignende sedimenter.</p>"
-                    }, {
+                        "overlay": "<h3>Hård og stenet bund</h3><p class='hidden-xs '>Prøve taget ved venstre bred. Her er bunden hård og består primært af sten med en diameter på omkring 2-4 cm. Der er desuden en lille andel sediment i grusfraktion under stenene.</p>"
+                    },{
                         "type": "img",
-                        "src": "img/sediment/sediment1a_hand.png",
-                        "alt": "Eksternt billede..."
+                        "src": "img/sediment/sediment_1b.jpg",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Stenet bund</h3><p class='hidden-xs '>Prøve taget midt i vandløbet. Fortsat stenet bund, men ikke så fast; stenene er i fraktionen 2-5 cm, og der er meget mere grus mellem stenene.</p>"
+                    },{
+                        "type": "img",
+                        "src": "img/sediment/sediment_1b_gopro.jpg",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Undervandsbillede af den stenede bund</h3><p class='hidden-xs '></p>"
                     }]
                 }
             }
+           
         }, {
             "type": "sediment",
             "lat": 55.48250674386889,
             "lng": 11.879549212303118,
-            "header": "Sediment billeder fra 2. lokation",
+            "header": "Bundforhold hvor åen svinger til venstre",
             "resurse_prepend": "",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_sediment.png",
             "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
             "infotekst": "",
-            "data": {
+        
+             "data": {
                 "carouselData": {
                     "subHeader": "Øvrige objekter for faget Dansk...",
                     "slides": [{
                         "type": "img",
-                        "src": "img/sediment/sediment1a_hand.png",
+                        "src": "img/sediment/sediment_2b.jpg",
                         "alt": "Eksternt billede...",
-                        "overlay": "<h3>Et sediment med en given kornstørrelse</h3><p class='hidden-xs'>Her kan man tydeligt se på dimentet, at det er af den type sediment som kendetegnes ved at være sammenlignelig med andre typer af lignende sedimenter.</p>"
+                        "overlay": "<h3>Vegetation fra venstre bred til midten af åen</h3><p class='hidden-xs '>Prøve taget ved venstre bred. Stenet bund med 2-6 cm sten samt ikke nedbrudte plantestykker på ca. 5 cm og ca. 1 cm i diameter. Der er desuden bundvegetation der når op til vandoverfladen.</p>"
                     }, {
                         "type": "img",
-                        "src": "img/sediment/sediment1a_hand.png",
-                        "alt": "Eksternt billede..."
+                        "src": "img/sediment/sediment_2a.jpg",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Stenet bund på venstre bred</h3><p class='hidden-xs '>Der er en del vegetation fra venstre bred og helt ud til midten af vandløbet. Specielt på midten er vegetationen høj - omkring 15 cm. Planterne er fasthæftet bundsubstratet og er af samme art.</p>"                    
+                    }, {
+                        "type": "img",
+                        "src": "img/sediment/sediment_2b_gopro.jpg",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Bundvegetation</h3><p class='hidden-xs '>Undervandsbillede af bundvegetationen ved venstre side.</p>"
+                    }, {
+                        "type": "img",
+                        "src": "img/sediment/sediment_2d.jpg",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Organisk materiale</h3><p class='hidden-xs '>Prøve taget ved højre bred. Organisk nedbrudt materiale hovedsagligt i lerfraktion. Men med enkelte ikke nedbrudte plantestykker op til ca.10 cm størrelse indlejret i.</p>"
                     }]
                 }
             }
-        }
-, {
+
+
+        }, {
             "type": "sediment",
-            "lat": 55.481749791377524, 
+            "lat": 55.481749791377524,
             "lng": 11.879116669975247,
-            "header": "Sediment billeder fra 3. lokation",
+            "header": "Bundforhold hvor åen løber ligeud",
             "resurse_prepend": "",
             "header_pic": "img/aa_2.png",
             "marker": "img/icon_sediment.png",
@@ -291,19 +310,27 @@
                     "subHeader": "Øvrige objekter for faget Dansk...",
                     "slides": [{
                         "type": "img",
-                        "src": "img/sediment/sediment1a_hand.png",
+                        "src": "img/sediment/sediment_3b.jpg",
                         "alt": "Eksternt billede...",
-                        "overlay": "<h3>Et sediment med en given kornstørrelse</h3><p class='hidden-xs'>Her kan man tydeligt se på dimentet, at det er af den type sediment som kendetegnes ved at være sammenlignelig med andre typer af lignende sedimenter.</p>"
+                        "overlay": "<h3>Hårdere bund</h3><p class='hidden-xs '>Prøve taget i midten af åen. Hårdere bund end ved den venstre bred. Grus og sten i diameteren ca. 0,5-7 cm størrelse indlejret i ler og sandpartikler. Ler og sandpartiklerne er nedbrudt organisk materiale samt uorganisk materiale.</p>"
+                    },{
+                        "type": "img",
+                        "src": "img/sediment/sediment_3c_gopro.jpg",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Undervandsbillede af det midterste stykke</h3>"
                     }, {
                         "type": "img",
-                        "src": "img/sediment/sediment1a_hand.png",
-                        "alt": "Eksternt billede..."
+                        "src": "img/sediment/sediment_3d.jpg",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Meget blød bund</h3><p class='hidden-xs '>Prøve taget ved højre bred. Meget blød bund primært bestående af nedbrudt organisk materiale i lerfraktion. I sedimentet ses desuden ikke nedbrudt plantemateriale op til ca. 7 cm i længden, og 1 mm i diameter</p>"
+                    }, {
+                        "type": "img",
+                        "src": "img/sediment/sediment_3a.jpg",
+                        "alt": "Eksternt billede...",
+                        "overlay": "<h3>Blød bund</h3><p class='hidden-xs '>Prøve fra venstre bred med blød bund bestående af nedbrudt organisk materiale i lerfraktion.</p>"
                     }]
                 }
             }
         }
-
-
-
     ]
 }
