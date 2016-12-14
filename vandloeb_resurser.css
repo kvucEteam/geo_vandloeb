@@ -11,7 +11,8 @@
     color: #666;
     border: 2px solid #666;
     border-radius: 8px;
-    padding: 2px 5px 0px 0px;
+    padding: 4px 5px 0px 5px;
+    display: inline-block;
 }
 
 .toggle_container {

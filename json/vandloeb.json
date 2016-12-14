@@ -6,331 +6,329 @@
         "titel": "Nytårsforsætter"
     },
     "zoom_punkter": [{
-            "type": "info",
-            "lat": 55.481549,
-            "lng": 11.869160,
-            "header": "Info om området",
-            "resurse_prepend": "",
-            "header_pic": "img/icon_info.png",
-            "marker": "img/icon_info.png",
-            "video_header": "Måling 1",
-            "video": "uye4MJFs9Kc",
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": "<div class='col-xs-8'><h4>Geografisk placering:</h4>Vigersdal å er beliggende et par km nordøst for Ringsted på Midtsjælland. <br>Åen er en del af Suså-systemet, der består at et hovedløb og 6 sideløb. Susåen er Sjællands største vandløb med udspring i Tingstrup Tykkelse i 90 m’s højde. Susåen løber til sidst sammen med Ringsted å.<br>Hvis vi kun ser på Vigersdal å, udspringer den i 25 m’s højde (overgangen fra Bedsted bæk) og løber over i Haraldsted sø i 22,81 m’s højde ved broindløbet ved Værkevad.<br>Åens opland er 28,9 km2.<br>Længden på åen er 5740 m.<br><h4>Landskab og jordbund:</h4>Åen ligger i et gammelt istidslandskab, hvor åen løber i en tunneldal, dvs. et gammelt flodløb under isen. Åen er omgivet af jævnt skrånende dalsider med ekstensivt anvendte arealer og få huse.<br>Jordbunden i området udgøres i overvejende grad af smeltevandssand ogsmeltevandsgrus. Herudover er der også moræneleraflejringer iblandet ferskvandstørv og gytje (omsat organisk materiale).<br><h4>Indvinding og regulativer:</h4>Der er kraftig vandindvinding i dette område, det er med til at forsyne Københavnsområdet med drikkevand.<br>Der er regulativer for åen, dette er for at sikre vandføringen i åen. Regulativet består i at måle vandføringen løbende, skære vegetationen i åen ned(grødeskæring) og fastsætte den maksimale indvinding af vand. Den maksimale indvinding reguleres løbende.</div><div class='col-xs-4'><img class='img-responsive 'src='img/kort_vigersted.png'></div>"
-        }, {
+        "type": "info",
+        "lat": 55.481549,
+        "lng": 11.869160,
+        "header": "Info om området",
+        "resurse_prepend": "",
+        "header_pic": "img/icon_info.png",
+        "marker": "img/icon_info.png",
+        "video_header": "Måling 1",
+        "video": "uye4MJFs9Kc",
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": "<div class='col-sm-12 col-md-8'><h4>Geografisk placering:</h4>Vigersdal å er beliggende et par km nordøst for Ringsted på Midtsjælland. <br>Åen er en del af Suså-systemet, der består at et hovedløb og 6 sideløb. Susåen er Sjællands største vandløb med udspring i Tingstrup Tykkelse i 90 m’s højde. Susåen løber til sidst sammen med Ringsted å.<br>Hvis vi kun ser på Vigersdal å, udspringer den i 25 m’s højde (overgangen fra Bedsted bæk) og løber over i Haraldsted sø i 22,81 m’s højde ved broindløbet ved Værkevad.<br>Åens opland er 28,9 km2.<br>Længden på åen er 5740 m.<br><h4>Landskab og jordbund:</h4>Åen ligger i et gammelt istidslandskab, hvor åen løber i en tunneldal, dvs. et gammelt flodløb under isen. Åen er omgivet af jævnt skrånende dalsider med ekstensivt anvendte arealer og få huse.<br>Jordbunden i området udgøres i overvejende grad af smeltevandssand ogsmeltevandsgrus. Herudover er der også moræneleraflejringer iblandet ferskvandstørv og gytje (omsat organisk materiale).<br><h4>Indvinding og regulativer:</h4>Der er kraftig vandindvinding i dette område, det er med til at forsyne Københavnsområdet med drikkevand.<br>Der er regulativer for åen, dette er for at sikre vandføringen i åen. Regulativet består i at måle vandføringen løbende, skære vegetationen i åen ned(grødeskæring) og fastsætte den maksimale indvinding af vand. Den maksimale indvinding reguleres løbende.</div><div class='col-sm-12 col-md-4'><img class='info_pic img-responsive 'src='img/kort_vigersted.png'></div>"
+    }, {
 
-            "type": "video",
-            "lat": 55.48337618508668,
-            "lng": 11.88104533995056,
-            "header": "Måling fra første lokation: Åen svinger til højre",
-            "resurse_prepend": "Video: ",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_video.png",
-            "video_header": "Måling 1",
-            "video": "zofBinqC2F4",
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "video",
-            "lat": 55.48291117591131,
-            "lng": 11.879897492065425,
-            "header": "Måling fra anden lokation: Åen svinger til venstre",
-            "resurse_prepend": "Video: ",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_video.png",
-            "video_header": "Måling 1",
-            "video": "zofBinqC2F4",
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "video",
-            "lat": 55.482240911149155,
-            "lng": 11.879406101852283,
-            "header": "Måling fra tredje lokation: Åen løber ligeud",
-            "resurse_prepend": "Video: ",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_video.png",
-            "video_header": "Måling 1",
-            "video": "8A-j6pq6UMg",
-            "video_tekst": "",
-            "panorama_billede": "",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "video",
-            "lat": 55.48147226544129,
-            "lng": 11.878941499336179,
-            "header": "Observation af vandets bevægelse vha. fløde",
-            "resurse_prepend": "Video: ",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_video.png",
-            "video_header": "Måling 1",
-            "video": "AZOfSNREPAE",
-            "video_tekst": "",
-            "panorama_billede": "",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "video",
-            "lat": 55.4815986924674,
-            "lng": 11.879020067459123,
-            "header": "Hastighedsmåling vha. æble",
-            "resurse_prepend": "Video: ",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_video.png",
-            "video_header": "Måling 1",
-            "video": "bmSMelrVf0I",
-            "video_tekst": "",
-            "panorama_billede": "",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "data",
-            "lat": 55.483268324611615,
-            "lng": 11.880590355819777,
-            "header": "Data: Åen svinger til højre",
-            "resurse_prepend": "",
-            "header_pic": "img/icon_data.png",
-            "marker": "img/icon_data.png",
-            "video_header": "Måling 1",
-            "content": "data_lokalitet_1.pdf",
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "data",
-            "lat": 55.48264061367344,
-            "lng": 11.879556982803365,
-            "header": "Data: Åen svinger til venstre",
-            "resurse_prepend": "",
-            "header_pic": "img/icon_data.png",
-            "marker": "img/icon_data.png",
-            "video_header": "Måling 1",
-            "content": "data_lokalitet_2.pdf",
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "data",
-            "lat": 55.481919212138784,
-            "lng": 11.87920991534429,
-            "header": "Data: Åen løber ligeud",
-            "resurse_prepend": "",
-            "header_pic": "img/icon_data.png",
-            "marker": "img/icon_data.png",
-            "video_header": "Måling 1",
-            "content": "data_lokalitet_3.pdf",
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "pdf",
-            "lat": 55.479549,
-            "lng": 11.869960,
-            "header": "PDF opgaver",
-            "resurse_prepend": "",
-            "header_pic": "img/icon_data.png",
-            "marker": "img/icon_opgave.png",
-            "data": ["samlet_opgave_vandlobsundersogelse.pdf", "vandbalanceogvandindvindingsmuligheder_opgave.pdf", "profil_opgave.pdf"],
-            "pdf_headers": ["Samlet opgave vandløbsundersøgelse", "Opgave i vandbalance og vandindvindingsmuligheder", "Opgave i at lave vandløbets profil"],
-            "video_tekst": "",
-            "panorama_billede": "img/tomas.jpg",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "station",
-            "lat": 55.476272,
-            "lng": 11.863689,
-            "header": "Målestation Værkevad bro",
-            "resurse_prepend": "Data: ",
-            "marker": "img/icon_data.png",
-            "infotekst": "<div class='col-xs-8'>Kommunen foretager løbende målinger af vandføring og vandstand for at sikre, at der er vand i vandløbet hele året, så økosystemet i vandløbet ikke ødelægges. <br/>Vandstanden måles også for at forebygge oversvømmelser af områder. Dette er i dag blevet mere aktuelt pga. flere skybrud og generelt mere nedbør. <br/>Høj vandstand kan mindskes ved grødeskæring (fjerne vandplanter) og evt. ved at øge vandindvindingen i området, hvis det er muligt.</div><div class='col-xs-6'><h4>Graf over vandføringen i Vigersdal Å</h4><img src='data/vendforing.png' class='img-responsive'><a class='btn btn-info' href='data/Vandforingsdata.pdf' target='_blank'><span class='glyphicons glyphicons-download-alt'></span> Hent vandføringsdata som pdf</a></div><div class='col-xs-6'><h4>Fordampning og nedbør</h4><img src='data/damp_nedbor.png' class='img-responsive'><a class='btn btn-info' href='data/Nedbor-fordampningsdata.pdf' target='_blank'><span class='glyphicons glyphicons-download-alt'></span> Hent nedbør og fordampningsdata som pdf</a></div>",
-            "pdf": ["", "", ""],
-            "sed_tekst": ""
+        "type": "video",
+        "lat": 55.48337618508668,
+        "lng": 11.88104533995056,
+        "header": "Måling fra første lokation: Åen svinger til højre",
+        "resurse_prepend": "Video: ",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_video.png",
+        "video_header": "Måling 1",
+        "video": "0-lo8IerRiM",
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "video",
+        "lat": 55.48291117591131,
+        "lng": 11.879897492065425,
+        "header": "Måling fra anden lokation: Åen svinger til venstre",
+        "resurse_prepend": "Video: ",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_video.png",
+        "video_header": "Måling 1",
+        "video": "zofBinqC2F4",
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "video",
+        "lat": 55.482240911149155,
+        "lng": 11.879406101852283,
+        "header": "Måling fra tredje lokation: Åen løber ligeud",
+        "resurse_prepend": "Video: ",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_video.png",
+        "video_header": "Måling 1",
+        "video": "8A-j6pq6UMg",
+        "video_tekst": "",
+        "panorama_billede": "",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "video",
+        "lat": 55.48147226544129,
+        "lng": 11.878941499336179,
+        "header": "Observation af vandets bevægelse vha. fløde",
+        "resurse_prepend": "Video: ",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_video.png",
+        "video_header": "Måling 1",
+        "video": "AZOfSNREPAE",
+        "video_tekst": "",
+        "panorama_billede": "",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "video",
+        "lat": 55.4815986924674,
+        "lng": 11.879020067459123,
+        "header": "Hastighedsmåling vha. æble",
+        "resurse_prepend": "Video: ",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_video.png",
+        "video_header": "Måling 1",
+        "video": "bmSMelrVf0I",
+        "video_tekst": "",
+        "panorama_billede": "",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "data",
+        "lat": 55.483268324611615,
+        "lng": 11.880590355819777,
+        "header": "Data: Åen svinger til højre",
+        "resurse_prepend": "",
+        "header_pic": "img/icon_data.png",
+        "marker": "img/icon_data.png",
+        "video_header": "Måling 1",
+        "content": "data_lokalitet_1.pdf",
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "data",
+        "lat": 55.48264061367344,
+        "lng": 11.879556982803365,
+        "header": "Data: Åen svinger til venstre",
+        "resurse_prepend": "",
+        "header_pic": "img/icon_data.png",
+        "marker": "img/icon_data.png",
+        "video_header": "Måling 1",
+        "content": "data_lokalitet_2.pdf",
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "data",
+        "lat": 55.481919212138784,
+        "lng": 11.87920991534429,
+        "header": "Data: Åen løber ligeud",
+        "resurse_prepend": "",
+        "header_pic": "img/icon_data.png",
+        "marker": "img/icon_data.png",
+        "video_header": "Måling 1",
+        "content": "data_lokalitet_3.pdf",
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "pdf",
+        "lat": 55.479549,
+        "lng": 11.869960,
+        "header": "PDF opgaver",
+        "resurse_prepend": "",
+        "header_pic": "img/icon_data.png",
+        "marker": "img/icon_opgave.png",
+        "data": ["samlet_opgave_vandlobsundersogelse.pdf", "vandbalanceogvandindvindingsmuligheder_opgave.pdf", "profil_opgave.pdf"],
+        "pdf_headers": ["Samlet opgave vandløbsundersøgelse", "Opgave i vandbalance og vandindvindingsmuligheder", "Opgave i at lave vandløbets profil"],
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "station",
+        "lat": 55.476272,
+        "lng": 11.863689,
+        "header": "Målestation Værkevad bro",
+        "resurse_prepend": "Data: ",
+        "marker": "img/icon_data.png",
+        "infotekst": "<div class='col-sm-12 col-md-8 '>Kommunen foretager løbende målinger af vandføring og vandstand for at sikre, at der er vand i vandløbet hele året, så økosystemet i vandløbet ikke ødelægges. <br/>Vandstanden måles også for at forebygge oversvømmelser af områder. Dette er i dag blevet mere aktuelt pga. flere skybrud og generelt mere nedbør. <br/>Høj vandstand kan mindskes ved grødeskæring (fjerne vandplanter) og evt. ved at øge vandindvindingen i området, hvis det er muligt.</div><div class='col-sm-12 col-md-6'><h4>Graf over vandføringen i Vigersdal Å</h4><img src='data/vendforing.png' class='img-responsive'><a class='btn btn-info' href='data/Vandforingsdata.pdf' target='_blank'><span class='glyphicons glyphicons-download-alt'></span> Hent vandføringsdata som pdf</a></div><div class='col-sm-12 col-md-6'><h4>Fordampning og nedbør</h4><img src='data/damp_nedbor.png' class='img-responsive'><a class='btn btn-info' href='data/Nedbor-fordampningsdata.pdf' target='_blank'><span class='glyphicons glyphicons-download-alt'></span> Hent nedbør og fordampningsdata som pdf</a></div>",
+        "pdf": ["", "", ""],
+        "sed_tekst": ""
 
-        }, {
-            "type": "panorama",
-            "lat": 55.48332459592208,
-            "lng": 11.880816186508127,
-            "header": "Panorama fra hvor åen svinger til højre",
-            "resurse_prepend": "",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_panorama.png",
-            "video_header": "Måling 1",
-            "video": "uye4MJFs9Kc",
-            "video_tekst": "",
-            "panorama_billede": "img/panorama/loc_1.png",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "panorama",
-            "lat": 55.482793193126774,
-            "lng": 11.879704550926249,
-            "header": "Panorama fra hvor åen svinger til venstre",
-            "resurse_prepend": "",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_panorama.png",
-            "video_header": "Måling 1",
-            "video": "uye4MJFs9Kc",
-            "video_tekst": "",
-            "panorama_billede": "img/panorama/loc_2.png",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "panorama",
-            "lat": 55.48206544706124,
-            "lng": 11.87930589814755,
-            "header": "Panorama fra hvor åen løber ligeud",
-            "resurse_prepend": "",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_panorama.png",
-            "video_header": "Måling 1",
-            "video": "uye4MJFs9Kc",
-            "video_tekst": "",
-            "panorama_billede": "img/panorama/loc_3.png",
-            "panorama_tekst": "",
-            "sed_pic": "",
-            "sed_tekst": "",
-            "infotekst": ""
-        }, {
-            "type": "sediment",
-            "lat": 55.48317680797211,
-            "lng": 11.880382618385283,
-            "header": "Bundforhold hvor åen svinger til højre",
-            "resurse_prepend": "",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_sediment.png",
-            "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
-            "infotekst": "",
-                "data": {
-                "carouselData": {
-                    "slides": [{
-                        "type": "img",
-                        "src": "img/sediment/sediment_1a.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Hård og stenet bund</h3><p class='hidden-xs '>Prøve taget ved venstre bred. Her er bunden hård og består primært af sten med en diameter på omkring 2-4 cm. Der er desuden en lille andel sediment i grusfraktion under stenene.</p>"
-                    },{
-                        "type": "img",
-                        "src": "img/sediment/sediment_1b.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Stenet bund</h3><p class='hidden-xs '>Prøve taget midt i vandløbet. Fortsat stenet bund, men ikke så fast; stenene er i fraktionen 2-5 cm, og der er meget mere grus mellem stenene.</p>"
-                    },{
-                        "type": "img",
-                        "src": "img/sediment/sediment_1b_gopro.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Undervandsbillede af den stenede bund</h3><p class='hidden-xs '></p>"
-                    }]
-                }
-            }
-           
-        }, {
-            "type": "sediment",
-            "lat": 55.48250674386889,
-            "lng": 11.879549212303118,
-            "header": "Bundforhold hvor åen svinger til venstre",
-            "resurse_prepend": "",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_sediment.png",
-            "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
-            "infotekst": "",
-        
-             "data": {
-                "carouselData": {
-                    "subHeader": "Øvrige objekter for faget Dansk...",
-                    "slides": [{
-                        "type": "img",
-                        "src": "img/sediment/sediment_2b.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Vegetation fra venstre bred til midten af åen</h3><p class='hidden-xs '>Prøve taget ved venstre bred. Stenet bund med 2-6 cm sten samt ikke nedbrudte plantestykker på ca. 5 cm og ca. 1 cm i diameter. Der er desuden bundvegetation der når op til vandoverfladen.</p>"
-                    }, {
-                        "type": "img",
-                        "src": "img/sediment/sediment_2a.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Stenet bund på venstre bred</h3><p class='hidden-xs '>Der er en del vegetation fra venstre bred og helt ud til midten af vandløbet. Specielt på midten er vegetationen høj - omkring 15 cm. Planterne er fasthæftet bundsubstratet og er af samme art.</p>"                    
-                    }, {
-                        "type": "img",
-                        "src": "img/sediment/sediment_2b_gopro.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Bundvegetation</h3><p class='hidden-xs '>Undervandsbillede af bundvegetationen ved venstre side.</p>"
-                    }, {
-                        "type": "img",
-                        "src": "img/sediment/sediment_2d.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Organisk materiale</h3><p class='hidden-xs '>Prøve taget ved højre bred. Organisk nedbrudt materiale hovedsagligt i lerfraktion. Men med enkelte ikke nedbrudte plantestykker op til ca.10 cm størrelse indlejret i.</p>"
-                    }]
-                }
-            }
-
-
-        }, {
-            "type": "sediment",
-            "lat": 55.481749791377524,
-            "lng": 11.879116669975247,
-            "header": "Bundforhold hvor åen løber ligeud",
-            "resurse_prepend": "",
-            "header_pic": "img/aa_2.png",
-            "marker": "img/icon_sediment.png",
-            "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
-            "infotekst": "",
-            "data": {
-                "carouselData": {
-                    "subHeader": "Øvrige objekter for faget Dansk...",
-                    "slides": [{
-                        "type": "img",
-                        "src": "img/sediment/sediment_3b.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Hårdere bund</h3><p class='hidden-xs '>Prøve taget i midten af åen. Hårdere bund end ved den venstre bred. Grus og sten i diameteren ca. 0,5-7 cm størrelse indlejret i ler og sandpartikler. Ler og sandpartiklerne er nedbrudt organisk materiale samt uorganisk materiale.</p>"
-                    },{
-                        "type": "img",
-                        "src": "img/sediment/sediment_3c_gopro.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Undervandsbillede af det midterste stykke</h3>"
-                    }, {
-                        "type": "img",
-                        "src": "img/sediment/sediment_3d.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Meget blød bund</h3><p class='hidden-xs '>Prøve taget ved højre bred. Meget blød bund primært bestående af nedbrudt organisk materiale i lerfraktion. I sedimentet ses desuden ikke nedbrudt plantemateriale op til ca. 7 cm i længden, og 1 mm i diameter</p>"
-                    }, {
-                        "type": "img",
-                        "src": "img/sediment/sediment_3a.jpg",
-                        "alt": "Eksternt billede...",
-                        "overlay": "<h3>Blød bund</h3><p class='hidden-xs '>Prøve fra venstre bred med blød bund bestående af nedbrudt organisk materiale i lerfraktion.</p>"
-                    }]
-                }
+    }, {
+        "type": "panorama",
+        "lat": 55.48332459592208,
+        "lng": 11.880816186508127,
+        "header": "Panorama fra hvor åen svinger til højre",
+        "resurse_prepend": "",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_panorama.png",
+        "video_header": "Måling 1",
+        "video": "uye4MJFs9Kc",
+        "video_tekst": "",
+        "panorama_billede": "img/panorama/loc_1.png",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "panorama",
+        "lat": 55.482793193126774,
+        "lng": 11.879704550926249,
+        "header": "Panorama fra hvor åen svinger til venstre",
+        "resurse_prepend": "",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_panorama.png",
+        "video_header": "Måling 1",
+        "video": "uye4MJFs9Kc",
+        "video_tekst": "",
+        "panorama_billede": "img/panorama/loc_2.png",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "panorama",
+        "lat": 55.48206544706124,
+        "lng": 11.87930589814755,
+        "header": "Panorama fra hvor åen løber ligeud",
+        "resurse_prepend": "",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_panorama.png",
+        "video_header": "Måling 1",
+        "video": "uye4MJFs9Kc",
+        "video_tekst": "",
+        "panorama_billede": "img/panorama/loc_3.png",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "sediment",
+        "lat": 55.48317680797211,
+        "lng": 11.880382618385283,
+        "header": "Bundforhold hvor åen svinger til højre",
+        "resurse_prepend": "",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_sediment.png",
+        "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
+        "infotekst": "",
+        "data": {
+            "carouselData": {
+                "slides": [{
+                    "type": "img",
+                    "src": "img/sediment/sediment_1a.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Hård og stenet bund</h3><p class='hidden-xs '>Prøve taget ved venstre bred. Her er bunden hård og består primært af sten med en diameter på omkring 2-4 cm. Der er desuden en lille andel sediment i grusfraktion under stenene.</p>"
+                }, {
+                    "type": "img",
+                    "src": "img/sediment/sediment_1b.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Stenet bund</h3><p class='hidden-xs '>Prøve taget midt i vandløbet. Fortsat stenet bund, men ikke så fast; stenene er i fraktionen 2-5 cm, og der er meget mere grus mellem stenene.</p>"
+                }, {
+                    "type": "img",
+                    "src": "img/sediment/sediment_1b_gopro.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Undervandsbillede af den stenede bund</h3><p class='hidden-xs '></p>"
+                }]
             }
         }
-    ]
+
+    }, {
+        "type": "sediment",
+        "lat": 55.48250674386889,
+        "lng": 11.879549212303118,
+        "header": "Bundforhold hvor åen svinger til venstre",
+        "resurse_prepend": "",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_sediment.png",
+        "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
+        "infotekst": "",
+        "data": {
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "slides": [{
+                    "type": "img",
+                    "src": "img/sediment/sediment_2b.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Vegetation fra venstre bred til midten af åen</h3><p class='hidden-xs '>Prøve taget ved venstre bred. Stenet bund med 2-6 cm sten samt ikke nedbrudte plantestykker på ca. 5 cm og ca. 1 cm i diameter. Der er desuden bundvegetation der når op til vandoverfladen.</p>"
+                }, {
+                    "type": "img",
+                    "src": "img/sediment/sediment_2a.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Stenet bund på venstre bred</h3><p class='hidden-xs '>Der er en del vegetation fra venstre bred og helt ud til midten af vandløbet. Specielt på midten er vegetationen høj - omkring 15 cm. Planterne er fasthæftet bundsubstratet og er af samme art.</p>"
+                }, {
+                    "type": "img",
+                    "src": "img/sediment/sediment_2b_gopro.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Bundvegetation</h3><p class='hidden-xs '>Undervandsbillede af bundvegetationen ved venstre side.</p>"
+                }, {
+                    "type": "img",
+                    "src": "img/sediment/sediment_2d.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Organisk materiale</h3><p class='hidden-xs '>Prøve taget ved højre bred. Organisk nedbrudt materiale hovedsagligt i lerfraktion. Men med enkelte ikke nedbrudte plantestykker op til ca.10 cm størrelse indlejret i.</p>"
+                }]
+            }
+        }
+
+
+    }, {
+        "type": "sediment",
+        "lat": 55.481749791377524,
+        "lng": 11.879116669975247,
+        "header": "Bundforhold hvor åen løber ligeud",
+        "resurse_prepend": "",
+        "header_pic": "img/aa_2.png",
+        "marker": "img/icon_sediment.png",
+        "billeder": ["img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png", "img/sediment/sediment1a_hand.png"],
+        "infotekst": "",
+        "data": {
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "slides": [{
+                    "type": "img",
+                    "src": "img/sediment/sediment_3b.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Hårdere bund</h3><p class='hidden-xs '>Prøve taget i midten af åen. Hårdere bund end ved den venstre bred. Grus og sten i diameteren ca. 0,5-7 cm størrelse indlejret i ler og sandpartikler. Ler og sandpartiklerne er nedbrudt organisk materiale samt uorganisk materiale.</p>"
+                }, {
+                    "type": "img",
+                    "src": "img/sediment/sediment_3c_gopro.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Undervandsbillede af det midterste stykke</h3>"
+                }, {
+                    "type": "img",
+                    "src": "img/sediment/sediment_3d.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Meget blød bund</h3><p class='hidden-xs '>Prøve taget ved højre bred. Meget blød bund primært bestående af nedbrudt organisk materiale i lerfraktion. I sedimentet ses desuden ikke nedbrudt plantemateriale op til ca. 7 cm i længden, og 1 mm i diameter</p>"
+                }, {
+                    "type": "img",
+                    "src": "img/sediment/sediment_3a.jpg",
+                    "alt": "Eksternt billede...",
+                    "overlay": "<h3>Blød bund</h3><p class='hidden-xs '>Prøve fra venstre bred med blød bund bestående af nedbrudt organisk materiale i lerfraktion.</p>"
+                }]
+            }
+        }
+    }]
 }

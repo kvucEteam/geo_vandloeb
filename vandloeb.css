@@ -103,3 +103,7 @@ h4 {
 .carouselOverlay{
     background-color: rgba(0,0,0,.4);
 }
+
+.info_pic {
+    margin-top: 30px;
+}
