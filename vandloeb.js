@@ -44,6 +44,8 @@ window.initMap = function(){
 
     $(document).ready(function() {
 
+        //alert("ny version!");
+
         $("#explanationWrapper").html(explanation(jsonData.userInterface.instruktion));
         $('.instr_container').html(instruction(jsonData.userInterface.explanation));
         $(".marker_popud").hide();
