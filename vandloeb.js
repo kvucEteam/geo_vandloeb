@@ -2,7 +2,7 @@ var map;
 var x_pos;
 var y_pos;
 
-function initMap() {
+window.initMap = function(){
     map = new google.maps.Map(document.getElementById('map'), {
         center: {
             lat: 55.480221,
@@ -84,7 +84,6 @@ function build_markers() {
     var js = jsonData.zoom_punkter;
     var HTML_array = [];
 
-
     for (var i = 0; i < jsonData.zoom_punkter.length; i++) {
 
         var latitude = js[i].lat;
@@ -93,18 +92,11 @@ function build_markers() {
         var marker = new google.maps.Marker({
             position: myLatLng,
             icon: jsonData.zoom_punkter[i].marker,
-            map: map//,
-            //draggable:true
+            map: map //,
         });
         marker.num = i;
 
-        //var infowindow = new google.maps.InfoWindow({});
-
         HTML = "<h2>" + js[i].header + "</h2>";
-
-
-        //HTML += "<img class='img-responsive' src='" + js[i].header_pic + "'>";
-
 
         if (js[i].type == "video") {
             HTML += "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[i].video + "?rel=0'></iframe></div>";
@@ -113,14 +105,7 @@ function build_markers() {
         } else if (js[i].type == "panorama") {
             console.log("mobile browser: " + jQuery.browser.mobile);
 
-            //HTML += '<div class="panorama"><img src="' + jsonData.zoom_punkter[i].panorama_billede + '"></div>'; 
-            HTML += "<figure><div class='panorama' data-paver data-start-position='0'><img class='img_paver' src=" + jsonData.zoom_punkter[i].panorama_billede + " /></div></figure>"
-                //HTML += '<div class="paver_container col-xs-12">';
-                //HTML += '<img src="' + jsonData.zoom_punkter[i].panorama_billede + '" title="Sunset in the heart of Aarhus" alt="A panorama" />';
-                //HTML += '</div>';
-
-
-
+            HTML += "<figure><div class='panorama' data-paver data-start-position='0'><img class='img_paver' src=" + jsonData.zoom_punkter[i].panorama_billede + " /></div></figure>";
             console.log("lets make panorama!");
 
 
@@ -171,7 +156,7 @@ function build_markers() {
                 $("#UserMsgBox").append('<div class="col-xs-12 sedimentforklaring"><span class="glyphicon glyphicon-info-sign"></span> Ler: <0,002mm | Silt: 0,002-0,06mm | Sand: 0,06-2mm | Grus: 2-20mm | Sten: 20-200mm | Blokke: >200mm</div>');
             }
 
-       
+
             /*$(".panorama").panorama_viewer({
                 repeat: false, // The image will repeat when the user scroll reach the bounding box. The default value is false.
                 direction: "horizontal", // Let you define the direction of the scroll. Acceptable values are "horizontal" and "vertical". The default value is horizontal
@@ -182,22 +167,13 @@ function build_markers() {
 
         });
 
-        google.maps.event.addListener(marker,'dragend',function(event) {
-        console.log(this.position.lat()+","+this.position.lng());
-        
-        
-    });
+        google.maps.event.addListener(marker, 'dragend', function(event) {
+            console.log(this.position.lat() + "," + this.position.lng());
+        });
 
         google.maps.event.addListener(marker, 'mouseover', function(event) {
             var indeks = this.num;
-
-            //this.setOpacity(0.5);
-
             $(".marker_popud").show().html(jsonData.zoom_punkter[indeks].header);
-
-            //$(".content_container").append("<div class='btn btn-info marker_popud'>"++"</div>")
-
-
         });
 
         google.maps.event.addListener(marker, 'mouseout', function() {
