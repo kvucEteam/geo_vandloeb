@@ -4,7 +4,7 @@
      var HTML_array = [];
 
 
-     $('.instr_container').html(instruction("Klik på overskrifterne og undersøg materialerne fra vandløbsundersøgelsen."));
+     $('.instr_container').html(instruction("Klik på overskrifterne og se materialerne fra vandløbsundersøgelsen."));
 
      for (var i = 0; i < jsonData.zoom_punkter.length; i++) {
 
@@ -20,7 +20,7 @@
 
              HTML += "<div class='embed-responsive embed-responsive-16by9'><iframe class='embed-responsive-item' src='https://www.youtube.com/embed/" + jsonData.zoom_punkter[i].video + "?rel=0'></iframe></div>";
              console.log("lets make video!");
-             
+
          } else if (js[i].type == "panorama") {
              //HTML += '<div class="panorama"><img src="' + jsonData.zoom_punkter[i].panorama_billede + '"></div>'; 
              //$(".fold_ud_objekt").eq(i).remove();
@@ -35,13 +35,16 @@
          } else if (js[i].type == "info") {
              HTML += '<div>' + jsonData.zoom_punkter[i].infotekst + '</div>';
 
+         } else if (js[i].type == "data_info") {
+             HTML += '<a target="_blank" href="data/' + jsonData.zoom_punkter[i].content + '"class="btn btn-info"><span class="glyphicons glyphicons-download-alt"></span> ' + jsonData.zoom_punkter[i].header + '</a>';
+
          } else if (js[i].type == "data") {
 
              //HTML += '<embed src="data/' + jsonData.zoom_punkter[i].content + '" width="100%" height="600" type="application/pdf"><a href="data/' + jsonData.zoom_punkter[i].content + '">Download pdf</a><br/>';
 
              HTML += '<a target="_blank" href="data/' + jsonData.zoom_punkter[i].content + '"class="btn btn-info"><span class="glyphicons glyphicons-download-alt"></span> ' + jsonData.zoom_punkter[i].header + '</a><br/> <br/>';
-             HTML += '<a target="_blank" href="data/' + jsonData.zoom_punkter[i+1].content + '"class="btn btn-info"><span class="glyphicons glyphicons-download-alt"></span> ' + jsonData.zoom_punkter[i+1].header + '</a><br/> <br/>';
-             HTML += '<a target="_blank" href="data/' + jsonData.zoom_punkter[i+2].content + '"class="btn btn-info"><span class="glyphicons glyphicons-download-alt"></span> ' + jsonData.zoom_punkter[i+2].header + '</a><br/> <br/>';
+             HTML += '<a target="_blank" href="data/' + jsonData.zoom_punkter[i + 1].content + '"class="btn btn-info"><span class="glyphicons glyphicons-download-alt"></span> ' + jsonData.zoom_punkter[i + 1].header + '</a><br/> <br/>';
+             HTML += '<a target="_blank" href="data/' + jsonData.zoom_punkter[i + 2].content + '"class="btn btn-info"><span class="glyphicons glyphicons-download-alt"></span> ' + jsonData.zoom_punkter[i + 2].header + '</a><br/> <br/>';
 
 
          } else if (js[i].type == "station") {

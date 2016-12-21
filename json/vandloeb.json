@@ -22,6 +22,22 @@
         "sed_tekst": "",
         "infotekst": "<div class='col-sm-12 col-md-8'><h4>Geografisk placering:</h4>Vigersdal å er beliggende et par km nordøst for Ringsted på Midtsjælland. <br>Åen er en del af Suså-systemet, der består at et hovedløb og 6 sideløb. Susåen er Sjællands største vandløb med udspring i Tingstrup Tykkelse i 90 m’s højde. Susåen løber til sidst sammen med Ringsted å.<br>Hvis vi kun ser på Vigersdal å, udspringer den i 25 m’s højde (overgangen fra Bedsted bæk) og løber over i Haraldsted sø i 22,81 m’s højde ved broindløbet ved Værkevad.<br>Åens opland er 28,9 km2.<br>Længden på åen er 5740 m.<br><h4>Landskab og jordbund:</h4>Åen ligger i et gammelt istidslandskab, hvor åen løber i en tunneldal, dvs. et gammelt flodløb under isen. Åen er omgivet af jævnt skrånende dalsider med ekstensivt anvendte arealer og få huse.<br>Jordbunden i området udgøres i overvejende grad af smeltevandssand ogsmeltevandsgrus. Herudover er der også moræneleraflejringer iblandet ferskvandstørv og gytje (omsat organisk materiale).<br><h4>Indvinding og regulativer:</h4>Der er kraftig vandindvinding i dette område, det er med til at forsyne Københavnsområdet med drikkevand.<br>Der er regulativer for åen, dette er for at sikre vandføringen i åen. Regulativet består i at måle vandføringen løbende, skære vegetationen i åen ned(grødeskæring) og fastsætte den maksimale indvinding af vand. Den maksimale indvinding reguleres løbende.</div><div class='col-sm-12 col-md-4'><img class='info_pic img-responsive 'src='img/kort_vigersted.png'></div>"
     }, {
+        "type": "data_info",
+        "lat": 55.482412,
+        "lng": 11.880566,
+        "header": "PDF: Introduktion til en vandløbsundersøgelse",
+        "resurse_prepend": "",
+        "header_pic": "img/icon_info.png",
+        "marker": "img/icon_info.png",
+        "video_header": "Måling 1",
+        "video": "uye4MJFs9Kc",
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "content": "introduktion til vandlobsundersogelse.pdf",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
 
         "type": "video",
         "lat": 55.48337618508668,
@@ -159,7 +175,7 @@
         "header_pic": "img/icon_data.png",
         "marker": "img/icon_opgave.png",
         "data": ["samlet_opgave_vandlobsundersogelse.pdf", "vandbalanceogvandindvindingsmuligheder_opgave.pdf", "profil_opgave.pdf"],
-        "pdf_headers": ["Samlet opgave vandløbsundersøgelse", "Opgave i vandbalance og vandindvindingsmuligheder", "Opgave i at lave vandløbets profil"],
+        "pdf_headers": ["PDF: Samlet opgave vandløbsundersøgelse", "PDF: Opgave i vandbalance og vandindvindingsmuligheder", "PDF: Opgave i at lave vandløbets profil"],
         "video_tekst": "",
         "panorama_billede": "img/tomas.jpg",
         "panorama_tekst": "",

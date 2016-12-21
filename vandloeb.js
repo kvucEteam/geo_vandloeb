@@ -8,7 +8,7 @@ function initMap() {
             lat: 55.480221,
             lng: 11.870579
         },
-        zoom: 16,
+        zoom: 15,
         mapTypeId: 'satellite'
     });
 
@@ -77,7 +77,7 @@ function vis_kort() {
 function vis_overblik() {
     var laLatLng = new google.maps.LatLng(55.480221, 11.870579);
     map.panTo(laLatLng);
-    map.setZoom(16);
+    map.setZoom(15);
 }
 
 function build_markers() {
@@ -127,7 +127,7 @@ function build_markers() {
         } else if (js[i].type == "info") {
             HTML += '<div>' + jsonData.zoom_punkter[i].infotekst + '</div>';
 
-        } else if (js[i].type == "data") {
+        } else if (js[i].type == "data" || js[i].type == "data_info") {
             HTML += '<embed src="data/' + jsonData.zoom_punkter[i].content + '" width="100%" height="600" type="application/pdf"><a class="btn btn-info" href="data/' + jsonData.zoom_punkter[i].content + '"><span class="glyphicons glyphicons-download-alt"></span> Download data</a><br/>';
         } else if (js[i].type == "station") {
 
