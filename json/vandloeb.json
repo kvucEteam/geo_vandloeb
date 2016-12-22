@@ -2,7 +2,7 @@
     "userInterface": {
         "header": "Bevægelser i teksten 1",
         "explanation": "Klik på markørerne og se film, billeder og data fra dataindsamlingerne. Lav derefter opgaven.",
-        "instruktion": "Her kan man se hvordan et vandløbs tværprofil er opmålt samt hvordan strømningshastigheden er målt. <br>Der er film fra tre forskellige steder i Vigersdal Å. Man kan også hente data fra disse indsamlinger samt længere dataserier over vandføringen målt ved målestation Værkevad Bro. <br/>Her ligger også opgaver hvor man kan tegne profiler, beregne vandføring og opstille en vandbalanceligning.",
+        "instruktion": "Her kan du se, hvordan et vandløbs tværprofil er opmålt, samt hvordan strømningshastigheden er målt. Se film fra tre forskellige steder i Vigersdal Å, hent data fra disse indsamlinger, samt længere dataserier over vandføringen målt ved målestation Værkevad Bro. Du finder også opgaver, hvor du kan tegne profiler, beregne vandføring og opstille en vandbalanceligning.",
         "titel": "Nytårsforsætter"
     },
     "zoom_punkter": [{
