@@ -174,7 +174,7 @@
         "resurse_prepend": "",
         "header_pic": "img/icon_data.png",
         "marker": "img/icon_opgave.png",
-        "data": ["samlet_opgave_vandlobsundersogelse.pdf", "vandbalanceogvandindvindingsmuligheder_opgave.pdf", "profil_opgave.pdf"],
+        "data": ["pdf_samlet.pdf", "pdf_vandbalance.pdf", "pdf_profil.pdf"],
         "pdf_headers": ["PDF: Samlet opgave vandløbsundersøgelse", "PDF: Opgave i vandbalance og vandindvindingsmuligheder", "PDF: Opgave i at lave vandløbets profil"],
         "video_tekst": "",
         "panorama_billede": "img/tomas.jpg",
