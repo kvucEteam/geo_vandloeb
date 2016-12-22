@@ -183,6 +183,22 @@
         "sed_tekst": "",
         "infotekst": ""
     }, {
+        "type": "word",
+        "lat": 55.479549,
+        "lng": 11.869960,
+        "header": "Word-filer",
+        "resurse_prepend": "",
+        "header_pic": "img/icon_data.png",
+        "marker": "img/icon_opgave.png",
+        "data": ["opgave_samlet.docx", "opgave_vandbalance.docx", "opgave_profil.docx"],
+        "pdf_headers": ["WORD: Samlet opgave vandløbsundersøgelse", "WORD: Opgave i vandbalance og vandindvindingsmuligheder", "WORD: Opgave i at lave vandløbets profil"],
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
         "type": "station",
         "lat": 55.476272,
         "lng": 11.863689,
