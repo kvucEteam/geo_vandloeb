@@ -131,7 +131,17 @@ function build_markers() {
             }
 
 
+        }else if (js[i].type == "word") {
+            HTML += '<p>Download word opgaverne der hører til vandløbsundersøgelsen.</p>';
+            for (var u = 0; u < jsonData.zoom_punkter[i].data.length; u++) {
+                //console.log(jsonData.zoom_punkter[u].data[i]);
+                HTML += '<a target="_blank" href="data/' + jsonData.zoom_punkter[i].data[u] + '"class="btn btn-info"><span class="glyphicons glyphicons-download-alt"></span> ' + jsonData.zoom_punkter[i].pdf_headers[u] + '</a><br/>';
+                //<span class='glyphicons glyphicons-download-alt'></span>
+            }
+
+
         }
+
 
 
         HTML_array.push(HTML);
