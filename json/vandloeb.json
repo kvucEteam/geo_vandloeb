@@ -2,7 +2,7 @@
     "userInterface": {
         "header": "Bevægelser i teksten 1",
         "explanation": "Klik på markørerne og se film, billeder og data fra dataindsamlingerne. Lav derefter opgaven.",
-        "instruktion": "Her kan man se hvordan et vandløbs tværprofil er opmålt samt hvordan strømningshastigheden er målt. <br>Der er film fra tre forskellige steder i Vigersdal Å. Man kan også hente data fra disse indsamlinger samt længere dataserier over vandføringen målt ved målestation Værkevad Bro. <br/>Her ligger også opgaver hvor man kan tegne profiler, beregne vandføring og opstille en vandbalanceligning.",
+        "instruktion": "Her kan du se, hvordan et vandløbs tværprofil er opmålt, samt hvordan strømningshastigheden er målt. Se film fra tre forskellige steder i Vigersdal Å, hent data fra disse indsamlinger, samt længere dataserier over vandføringen målt ved målestation Værkevad Bro. Du finder også opgaver, hvor du kan tegne profiler, beregne vandføring og opstille en vandbalanceligning.",
         "titel": "Nytårsforsætter"
     },
     "zoom_punkter": [{
@@ -174,8 +174,24 @@
         "resurse_prepend": "",
         "header_pic": "img/icon_data.png",
         "marker": "img/icon_opgave.png",
-        "data": ["samlet_opgave_vandlobsundersogelse.pdf", "vandbalanceogvandindvindingsmuligheder_opgave.pdf", "profil_opgave.pdf"],
+        "data": ["pdf_samlet.pdf", "pdf_vandbalance.pdf", "pdf_profil.pdf"],
         "pdf_headers": ["PDF: Samlet opgave vandløbsundersøgelse", "PDF: Opgave i vandbalance og vandindvindingsmuligheder", "PDF: Opgave i at lave vandløbets profil"],
+        "video_tekst": "",
+        "panorama_billede": "img/tomas.jpg",
+        "panorama_tekst": "",
+        "sed_pic": "",
+        "sed_tekst": "",
+        "infotekst": ""
+    }, {
+        "type": "word",
+        "lat": 55.479549,
+        "lng": 11.869960,
+        "header": "Word-filer",
+        "resurse_prepend": "",
+        "header_pic": "img/icon_data.png",
+        "marker": "img/icon_opgave.png",
+        "data": ["opgave_samlet.docx", "opgave_vandbalance.docx", "opgave_profil.docx"],
+        "pdf_headers": ["WORD: Samlet opgave vandløbsundersøgelse", "WORD: Opgave i vandbalance og vandindvindingsmuligheder", "WORD: Opgave i at lave vandløbets profil"],
         "video_tekst": "",
         "panorama_billede": "img/tomas.jpg",
         "panorama_tekst": "",
