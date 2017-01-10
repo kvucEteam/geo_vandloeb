@@ -108,7 +108,7 @@ function build_markers() {
             console.log("mobile browser: " + jQuery.browser.mobile);
 
             HTML += "<figure><div class='panorama' data-paver data-start-position='0'><img class='img_paver' src=" + jsonData.zoom_punkter[i].panorama_billede + " /></div></figure>";
-            console.log("lets make panorama!");
+            console.log("lets make panoram a!");
 
 
         } else if (js[i].type == "info") {
